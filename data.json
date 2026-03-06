@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-03-06T17:38:00-03:00",
+  "lastUpdated": "2026-03-06T18:38:00-03:00",
   "agents": [
     {
       "id": "hunter",
@@ -86,18 +86,19 @@
       "status": "active",
       "channel": "#general / todos",
       "lastTask": "Dashboard update + Depurel theme v2 + coordinación estratégica con Ramon",
-      "lastActivity": "2026-03-06T17:38:00-03:00",
-      "weeklyTasks": { "completed": 31, "total": 32 }
+      "lastActivity": "2026-03-06T18:38:00-03:00",
+      "weeklyTasks": { "completed": 32, "total": 33 }
     }
   ],
   "metrics": {
-    "tasksToday": 21,
-    "tokensToday": 545000,
+    "tasksToday": 22,
+    "tokensToday": 560000,
     "reportsThisWeek": 12,
     "cronJobsActive": 9,
-    "tokenSparkline": [0, 0, 0, 0, 0, 248500, 545000]
+    "tokenSparkline": [0, 0, 0, 0, 0, 248500, 560000]
   },
   "timeline": [
+    { "agent": "MOLTY", "emoji": "🦾", "action": "dashboard update automático (cron)", "time": "18:38" },
     { "agent": "MOLTY", "emoji": "🦾", "action": "dashboard update automático (cron)", "time": "17:38" },
     { "agent": "MOLTY", "emoji": "🦾", "action": "dashboard update automático (cron)", "time": "16:38" },
     { "agent": "MOLTY", "emoji": "🦾", "action": "Depurel theme v2 — 18 secciones, animaciones, paleta real extraída del producto", "time": "16:00" },
@@ -151,10 +152,10 @@
     { "date": "2026-03-03", "tokens": 0 },
     { "date": "2026-03-04", "tokens": 0 },
     { "date": "2026-03-05", "tokens": 248500 },
-    { "date": "2026-03-06", "tokens": 545000 }
+    { "date": "2026-03-06", "tokens": 560000 }
   ],
   "cronJobs": [
-    { "name": "Dashboard Update", "id": "9265dc02", "frequency": "Cada 1 hora", "next": "2026-03-06T18:38:00-03:00", "status": "active" },
+    { "name": "Dashboard Update", "id": "9265dc02", "frequency": "Cada 1 hora", "next": "2026-03-06T19:38:00-03:00", "status": "active" },
     { "name": "Token Usage Report", "id": "cd8ba5da", "frequency": "Cada 2 horas", "next": "2026-03-06T18:54:00-03:00", "status": "active" },
     { "name": "Daily Standup", "id": "648321fb", "frequency": "Lun-Sáb 12:00", "next": "2026-03-07T12:00:00-03:00", "status": "active" },
     { "name": "Weekly Competitive Intel", "id": "4dd03de0", "frequency": "Lunes 10:00", "next": "2026-03-09T10:00:00-03:00", "status": "active" },
