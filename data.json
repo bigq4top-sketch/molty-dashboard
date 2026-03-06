@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-03-06T03:38:00-03:00",
+  "lastUpdated": "2026-03-06T04:38:00-03:00",
   "agents": [
     {
       "id": "hunter",
@@ -86,18 +86,19 @@
       "status": "active",
       "channel": "#general / todos",
       "lastTask": "Dashboard update automático (cron cada 1h)",
-      "lastActivity": "2026-03-06T03:38:00-03:00",
-      "weeklyTasks": { "completed": 13, "total": 14 }
+      "lastActivity": "2026-03-06T04:38:00-03:00",
+      "weeklyTasks": { "completed": 14, "total": 15 }
     }
   ],
   "metrics": {
-    "tasksToday": 4,
-    "tokensToday": 190000,
+    "tasksToday": 5,
+    "tokensToday": 200000,
     "reportsThisWeek": 7,
     "cronJobsActive": 5,
-    "tokenSparkline": [0, 0, 0, 0, 0, 248500, 190000]
+    "tokenSparkline": [0, 0, 0, 0, 0, 248500, 200000]
   },
   "timeline": [
+    { "agent": "MOLTY", "emoji": "🦾", "action": "dashboard update automático (cron)", "time": "04:38" },
     { "agent": "MOLTY", "emoji": "🦾", "action": "dashboard update automático (cron)", "time": "03:38" },
     { "agent": "MOLTY", "emoji": "🦾", "action": "dashboard update automático (cron)", "time": "02:38" },
     { "agent": "MOLTY", "emoji": "🦾", "action": "token usage report (cron)", "time": "00:54" },
@@ -125,10 +126,10 @@
     { "date": "2026-03-03", "tokens": 0 },
     { "date": "2026-03-04", "tokens": 0 },
     { "date": "2026-03-05", "tokens": 248500 },
-    { "date": "2026-03-06", "tokens": 190000 }
+    { "date": "2026-03-06", "tokens": 200000 }
   ],
   "cronJobs": [
-    { "name": "Dashboard Update", "id": "9265dc02", "frequency": "Cada 1 hora", "next": "2026-03-06T04:38:00-03:00", "status": "active" },
+    { "name": "Dashboard Update", "id": "9265dc02", "frequency": "Cada 1 hora", "next": "2026-03-06T05:38:00-03:00", "status": "active" },
     { "name": "Token Usage Report", "id": "cd8ba5da", "frequency": "Cada 2 horas", "next": "2026-03-06T04:54:00-03:00", "status": "active" },
     { "name": "Daily Standup", "id": "648321fb", "frequency": "Lun-Sáb 12:00", "next": "2026-03-06T12:00:00-03:00", "status": "active" },
     { "name": "Weekly Competitive Intel", "id": "4dd03de0", "frequency": "Lunes 10:00", "next": "2026-03-09T10:00:00-03:00", "status": "active" },
