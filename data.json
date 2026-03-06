@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-03-06T13:38:00-03:00",
+  "lastUpdated": "2026-03-06T14:38:00-03:00",
   "agents": [
     {
       "id": "hunter",
@@ -8,9 +8,9 @@
       "role": "Product Research Lead",
       "status": "idle",
       "channel": "#research-productos",
-      "lastTask": "Reporte TOP 20 productos ganadores — Q1 2026 (WINNING-PRODUCTS-RESEARCH.md)",
-      "lastActivity": "2026-03-05T20:44:00-03:00",
-      "weeklyTasks": { "completed": 1, "total": 1 }
+      "lastTask": "108 productos investigados → 37 viables filtrados + plan testeo 3 olas (100-PRODUCTOS-RESEARCH.md)",
+      "lastActivity": "2026-03-06T05:00:00-03:00",
+      "weeklyTasks": { "completed": 2, "total": 2 }
     },
     {
       "id": "shadow",
@@ -19,9 +19,9 @@
       "role": "Competitive Intelligence",
       "status": "idle",
       "channel": "#intel-competitiva",
-      "lastTask": "Análisis competidores nicho suplementos LatAm (competitive-intel-report.md)",
-      "lastActivity": "2026-03-05T20:44:00-03:00",
-      "weeklyTasks": { "completed": 1, "total": 1 }
+      "lastTask": "Deep intel — 30 marcas analizadas, top 5 oportunidades (DEEP-COMPETITIVE-INTEL.md)",
+      "lastActivity": "2026-03-06T05:00:00-03:00",
+      "weeklyTasks": { "completed": 2, "total": 2 }
     },
     {
       "id": "blade",
@@ -30,9 +30,9 @@
       "role": "Copywriter Elite",
       "status": "idle",
       "channel": "#copywriting",
-      "lastTask": "38 piezas de copy — Depurel + Linfatic (copy-assets-complete.md)",
-      "lastActivity": "2026-03-05T20:44:00-03:00",
-      "weeklyTasks": { "completed": 1, "total": 1 }
+      "lastTask": "MEGA-COPY-ARSENAL.md — 172KB, 4585 líneas, copy completo 7 productos",
+      "lastActivity": "2026-03-06T05:00:00-03:00",
+      "weeklyTasks": { "completed": 2, "total": 2 }
     },
     {
       "id": "nova",
@@ -41,9 +41,9 @@
       "role": "Media Buyer Lead",
       "status": "idle",
       "channel": "#media-buying",
-      "lastTask": "Estrategia de medios completa (media-strategy-complete.md)",
-      "lastActivity": "2026-03-05T20:44:00-03:00",
-      "weeklyTasks": { "completed": 1, "total": 1 }
+      "lastTask": "MEGA-ADS-STRATEGY.md — ~70KB, estrategia ads 7 productos",
+      "lastActivity": "2026-03-06T05:00:00-03:00",
+      "weeklyTasks": { "completed": 2, "total": 2 }
     },
     {
       "id": "forge",
@@ -74,9 +74,9 @@
       "role": "SEO Specialist",
       "status": "idle",
       "channel": "#seo-strategy",
-      "lastTask": "Estrategia SEO completa (seo-strategy-complete.md)",
-      "lastActivity": "2026-03-05T20:44:00-03:00",
-      "weeklyTasks": { "completed": 1, "total": 1 }
+      "lastTask": "MEGA-SEO-STRATEGY.md — ~83KB, SEO completo 7 productos",
+      "lastActivity": "2026-03-06T05:00:00-03:00",
+      "weeklyTasks": { "completed": 2, "total": 2 }
     },
     {
       "id": "molty",
@@ -85,19 +85,20 @@
       "role": "Director IA — Coordinación general",
       "status": "active",
       "channel": "#general / todos",
-      "lastTask": "Dashboard update + reunión estratégica con Ramon + plan de testeo $3K aprobado",
-      "lastActivity": "2026-03-06T13:38:00-03:00",
-      "weeklyTasks": { "completed": 26, "total": 27 }
+      "lastTask": "Dashboard update + cron jobs + coordinación restricciones de producto con Ramon",
+      "lastActivity": "2026-03-06T14:38:00-03:00",
+      "weeklyTasks": { "completed": 28, "total": 29 }
     }
   ],
   "metrics": {
-    "tasksToday": 16,
-    "tokensToday": 460000,
-    "reportsThisWeek": 7,
+    "tasksToday": 18,
+    "tokensToday": 495000,
+    "reportsThisWeek": 12,
     "cronJobsActive": 9,
-    "tokenSparkline": [0, 0, 0, 0, 0, 248500, 460000]
+    "tokenSparkline": [0, 0, 0, 0, 0, 248500, 495000]
   },
   "timeline": [
+    { "agent": "MOLTY", "emoji": "🦾", "action": "dashboard update automático (cron)", "time": "14:38" },
     { "agent": "MOLTY", "emoji": "🦾", "action": "dashboard update automático (cron)", "time": "13:38" },
     { "agent": "MOLTY", "emoji": "🦾", "action": "Daily Standup ejecutado (cron)", "time": "12:00" },
     { "agent": "MOLTY", "emoji": "🦾", "action": "dashboard update automático (cron)", "time": "12:38" },
@@ -106,10 +107,17 @@
     { "agent": "MOLTY", "emoji": "🦾", "action": "dashboard update automático (cron)", "time": "10:38" },
     { "agent": "MOLTY", "emoji": "🦾", "action": "dashboard update automático (cron)", "time": "09:38" },
     { "agent": "MOLTY", "emoji": "🦾", "action": "dashboard update automático (cron)", "time": "08:38" },
+    { "agent": "MOLTY", "emoji": "🦾", "action": "restricciones producto confirmadas: ✅ gotas/cápsulas/polvo, ❌ gummies/sachets", "time": "08:00" },
     { "agent": "MOLTY", "emoji": "🦾", "action": "dashboard update automático (cron)", "time": "07:38" },
     { "agent": "MOLTY", "emoji": "🦾", "action": "token usage report (cron)", "time": "06:54" },
     { "agent": "MOLTY", "emoji": "🦾", "action": "dashboard update automático (cron)", "time": "06:38" },
     { "agent": "MOLTY", "emoji": "🦾", "action": "dashboard update automático (cron)", "time": "05:38" },
+    { "agent": "HUNTER", "emoji": "🔬", "action": "MEGA research: 108 productos → 37 viables filtrados + plan testeo 3 olas", "time": "05:00" },
+    { "agent": "SHADOW", "emoji": "🕵️", "action": "DEEP intel: 30 marcas analizadas, top 5 oportunidades", "time": "05:00" },
+    { "agent": "NOVA", "emoji": "🎯", "action": "MEGA ads strategy: ~70KB, 7 productos", "time": "05:00" },
+    { "agent": "BLADE", "emoji": "✍️", "action": "MEGA copy arsenal: 172KB, 4585 líneas, 7 productos", "time": "05:00" },
+    { "agent": "ORBIT", "emoji": "🔍", "action": "MEGA SEO strategy: ~83KB, 7 productos", "time": "05:00" },
+    { "agent": "MOLTY", "emoji": "🦾", "action": "lanzó 5 subagentes MEGA en paralelo (madrugada)", "time": "04:00" },
     { "agent": "MOLTY", "emoji": "🦾", "action": "token usage report (cron)", "time": "04:54" },
     { "agent": "MOLTY", "emoji": "🦾", "action": "dashboard update automático (cron)", "time": "04:38" },
     { "agent": "MOLTY", "emoji": "🦾", "action": "dashboard update automático (cron)", "time": "03:38" },
@@ -139,10 +147,10 @@
     { "date": "2026-03-03", "tokens": 0 },
     { "date": "2026-03-04", "tokens": 0 },
     { "date": "2026-03-05", "tokens": 248500 },
-    { "date": "2026-03-06", "tokens": 460000 }
+    { "date": "2026-03-06", "tokens": 495000 }
   ],
   "cronJobs": [
-    { "name": "Dashboard Update", "id": "9265dc02", "frequency": "Cada 1 hora", "next": "2026-03-06T14:38:00-03:00", "status": "active" },
+    { "name": "Dashboard Update", "id": "9265dc02", "frequency": "Cada 1 hora", "next": "2026-03-06T15:38:00-03:00", "status": "active" },
     { "name": "Token Usage Report", "id": "cd8ba5da", "frequency": "Cada 2 horas", "next": "2026-03-06T14:54:00-03:00", "status": "active" },
     { "name": "Daily Standup", "id": "648321fb", "frequency": "Lun-Sáb 12:00", "next": "2026-03-07T12:00:00-03:00", "status": "active" },
     { "name": "Weekly Competitive Intel", "id": "4dd03de0", "frequency": "Lunes 10:00", "next": "2026-03-09T10:00:00-03:00", "status": "active" },
