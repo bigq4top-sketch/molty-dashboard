@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-03-06T12:38:00-03:00",
+  "lastUpdated": "2026-03-06T13:38:00-03:00",
   "agents": [
     {
       "id": "hunter",
@@ -85,22 +85,22 @@
       "role": "Director IA — Coordinación general",
       "status": "active",
       "channel": "#general / todos",
-      "lastTask": "Dashboard update + Daily Standup + reunión estratégica con Ramon",
-      "lastActivity": "2026-03-06T12:38:00-03:00",
-      "weeklyTasks": { "completed": 24, "total": 25 }
+      "lastTask": "Dashboard update + reunión estratégica con Ramon + plan de testeo $3K aprobado",
+      "lastActivity": "2026-03-06T13:38:00-03:00",
+      "weeklyTasks": { "completed": 26, "total": 27 }
     }
   ],
   "metrics": {
-    "tasksToday": 15,
-    "tokensToday": 425000,
+    "tasksToday": 16,
+    "tokensToday": 460000,
     "reportsThisWeek": 7,
     "cronJobsActive": 9,
-    "tokenSparkline": [0, 0, 0, 0, 0, 248500, 425000]
+    "tokenSparkline": [0, 0, 0, 0, 0, 248500, 460000]
   },
   "timeline": [
-    { "agent": "MOLTY", "emoji": "🦾", "action": "dashboard update automático (cron)", "time": "12:38" },
+    { "agent": "MOLTY", "emoji": "🦾", "action": "dashboard update automático (cron)", "time": "13:38" },
     { "agent": "MOLTY", "emoji": "🦾", "action": "Daily Standup ejecutado (cron)", "time": "12:00" },
-    { "agent": "MOLTY", "emoji": "🦾", "action": "dashboard update automático (cron)", "time": "11:38" },
+    { "agent": "MOLTY", "emoji": "🦾", "action": "dashboard update automático (cron)", "time": "12:38" },
     { "agent": "MOLTY", "emoji": "🦾", "action": "reunión estratégica con Ramon — auditoría tiendas, plan de testeo $3K, productos aprobados (magnesio, D3+K2, pelo/piel/uñas)", "time": "11:00" },
     { "agent": "MOLTY", "emoji": "🦾", "action": "token usage report (cron)", "time": "10:54" },
     { "agent": "MOLTY", "emoji": "🦾", "action": "dashboard update automático (cron)", "time": "10:38" },
@@ -139,11 +139,11 @@
     { "date": "2026-03-03", "tokens": 0 },
     { "date": "2026-03-04", "tokens": 0 },
     { "date": "2026-03-05", "tokens": 248500 },
-    { "date": "2026-03-06", "tokens": 425000 }
+    { "date": "2026-03-06", "tokens": 460000 }
   ],
   "cronJobs": [
-    { "name": "Dashboard Update", "id": "9265dc02", "frequency": "Cada 1 hora", "next": "2026-03-06T13:38:00-03:00", "status": "active" },
-    { "name": "Token Usage Report", "id": "cd8ba5da", "frequency": "Cada 2 horas", "next": "2026-03-06T12:54:00-03:00", "status": "active" },
+    { "name": "Dashboard Update", "id": "9265dc02", "frequency": "Cada 1 hora", "next": "2026-03-06T14:38:00-03:00", "status": "active" },
+    { "name": "Token Usage Report", "id": "cd8ba5da", "frequency": "Cada 2 horas", "next": "2026-03-06T14:54:00-03:00", "status": "active" },
     { "name": "Daily Standup", "id": "648321fb", "frequency": "Lun-Sáb 12:00", "next": "2026-03-07T12:00:00-03:00", "status": "active" },
     { "name": "Weekly Competitive Intel", "id": "4dd03de0", "frequency": "Lunes 10:00", "next": "2026-03-09T10:00:00-03:00", "status": "active" },
     { "name": "Recordatorio reunión (noche anterior)", "id": "587c8f61", "frequency": "Una vez — Mar 10/3 22:00", "next": "2026-03-10T22:00:00-03:00", "status": "active" },
