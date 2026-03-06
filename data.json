@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-03-06T16:38:00-03:00",
+  "lastUpdated": "2026-03-06T17:38:00-03:00",
   "agents": [
     {
       "id": "hunter",
@@ -52,7 +52,7 @@
       "role": "Landing Page Architect",
       "status": "idle",
       "channel": "#landing-pages",
-      "lastTask": "Depurel-v2-custom theme — 18 secciones, 39 archivos, animaciones scroll",
+      "lastTask": "Depurel-v2-custom theme — 18 secciones, 39 archivos, animaciones scroll, paleta real del producto",
       "lastActivity": "2026-03-06T16:00:00-03:00",
       "weeklyTasks": { "completed": 2, "total": 2 }
     },
@@ -85,21 +85,23 @@
       "role": "Director IA — Coordinación general",
       "status": "active",
       "channel": "#general / todos",
-      "lastTask": "Dashboard update + Depurel theme v2 + coordinación con Ramon",
-      "lastActivity": "2026-03-06T16:38:00-03:00",
-      "weeklyTasks": { "completed": 30, "total": 31 }
+      "lastTask": "Dashboard update + Depurel theme v2 + coordinación estratégica con Ramon",
+      "lastActivity": "2026-03-06T17:38:00-03:00",
+      "weeklyTasks": { "completed": 31, "total": 32 }
     }
   ],
   "metrics": {
-    "tasksToday": 20,
-    "tokensToday": 530000,
+    "tasksToday": 21,
+    "tokensToday": 545000,
     "reportsThisWeek": 12,
     "cronJobsActive": 9,
-    "tokenSparkline": [0, 0, 0, 0, 0, 248500, 530000]
+    "tokenSparkline": [0, 0, 0, 0, 0, 248500, 545000]
   },
   "timeline": [
+    { "agent": "MOLTY", "emoji": "🦾", "action": "dashboard update automático (cron)", "time": "17:38" },
     { "agent": "MOLTY", "emoji": "🦾", "action": "dashboard update automático (cron)", "time": "16:38" },
     { "agent": "MOLTY", "emoji": "🦾", "action": "Depurel theme v2 — 18 secciones, animaciones, paleta real extraída del producto", "time": "16:00" },
+    { "agent": "MOLTY", "emoji": "🦾", "action": "token usage report (cron)", "time": "14:54" },
     { "agent": "MOLTY", "emoji": "🦾", "action": "dashboard update automático (cron)", "time": "14:38" },
     { "agent": "MOLTY", "emoji": "🦾", "action": "dashboard update automático (cron)", "time": "13:38" },
     { "agent": "MOLTY", "emoji": "🦾", "action": "Daily Standup ejecutado (cron)", "time": "12:00" },
@@ -149,11 +151,11 @@
     { "date": "2026-03-03", "tokens": 0 },
     { "date": "2026-03-04", "tokens": 0 },
     { "date": "2026-03-05", "tokens": 248500 },
-    { "date": "2026-03-06", "tokens": 530000 }
+    { "date": "2026-03-06", "tokens": 545000 }
   ],
   "cronJobs": [
-    { "name": "Dashboard Update", "id": "9265dc02", "frequency": "Cada 1 hora", "next": "2026-03-06T17:38:00-03:00", "status": "active" },
-    { "name": "Token Usage Report", "id": "cd8ba5da", "frequency": "Cada 2 horas", "next": "2026-03-06T16:54:00-03:00", "status": "active" },
+    { "name": "Dashboard Update", "id": "9265dc02", "frequency": "Cada 1 hora", "next": "2026-03-06T18:38:00-03:00", "status": "active" },
+    { "name": "Token Usage Report", "id": "cd8ba5da", "frequency": "Cada 2 horas", "next": "2026-03-06T18:54:00-03:00", "status": "active" },
     { "name": "Daily Standup", "id": "648321fb", "frequency": "Lun-Sáb 12:00", "next": "2026-03-07T12:00:00-03:00", "status": "active" },
     { "name": "Weekly Competitive Intel", "id": "4dd03de0", "frequency": "Lunes 10:00", "next": "2026-03-09T10:00:00-03:00", "status": "active" },
     { "name": "Recordatorio reunión (noche anterior)", "id": "587c8f61", "frequency": "Una vez — Mar 10/3 22:00", "next": "2026-03-10T22:00:00-03:00", "status": "active" },
