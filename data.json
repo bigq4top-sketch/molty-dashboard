@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-03-06T06:38:00-03:00",
+  "lastUpdated": "2026-03-06T07:38:00-03:00",
   "agents": [
     {
       "id": "hunter",
@@ -86,18 +86,20 @@
       "status": "active",
       "channel": "#general / todos",
       "lastTask": "Dashboard update automático (cron cada 1h)",
-      "lastActivity": "2026-03-06T06:38:00-03:00",
-      "weeklyTasks": { "completed": 16, "total": 17 }
+      "lastActivity": "2026-03-06T07:38:00-03:00",
+      "weeklyTasks": { "completed": 17, "total": 18 }
     }
   ],
   "metrics": {
-    "tasksToday": 7,
-    "tokensToday": 242000,
+    "tasksToday": 8,
+    "tokensToday": 340000,
     "reportsThisWeek": 7,
     "cronJobsActive": 5,
-    "tokenSparkline": [0, 0, 0, 0, 0, 248500, 242000]
+    "tokenSparkline": [0, 0, 0, 0, 0, 248500, 340000]
   },
   "timeline": [
+    { "agent": "MOLTY", "emoji": "🦾", "action": "dashboard update automático (cron)", "time": "07:38" },
+    { "agent": "MOLTY", "emoji": "🦾", "action": "token usage report (cron)", "time": "06:54" },
     { "agent": "MOLTY", "emoji": "🦾", "action": "dashboard update automático (cron)", "time": "06:38" },
     { "agent": "MOLTY", "emoji": "🦾", "action": "dashboard update automático (cron)", "time": "05:38" },
     { "agent": "MOLTY", "emoji": "🦾", "action": "token usage report (cron)", "time": "04:54" },
@@ -129,11 +131,11 @@
     { "date": "2026-03-03", "tokens": 0 },
     { "date": "2026-03-04", "tokens": 0 },
     { "date": "2026-03-05", "tokens": 248500 },
-    { "date": "2026-03-06", "tokens": 242000 }
+    { "date": "2026-03-06", "tokens": 340000 }
   ],
   "cronJobs": [
-    { "name": "Dashboard Update", "id": "9265dc02", "frequency": "Cada 1 hora", "next": "2026-03-06T07:38:00-03:00", "status": "active" },
-    { "name": "Token Usage Report", "id": "cd8ba5da", "frequency": "Cada 2 horas", "next": "2026-03-06T06:54:00-03:00", "status": "active" },
+    { "name": "Dashboard Update", "id": "9265dc02", "frequency": "Cada 1 hora", "next": "2026-03-06T08:38:00-03:00", "status": "active" },
+    { "name": "Token Usage Report", "id": "cd8ba5da", "frequency": "Cada 2 horas", "next": "2026-03-06T08:54:00-03:00", "status": "active" },
     { "name": "Daily Standup", "id": "648321fb", "frequency": "Lun-Sáb 12:00", "next": "2026-03-06T12:00:00-03:00", "status": "active" },
     { "name": "Weekly Competitive Intel", "id": "4dd03de0", "frequency": "Lunes 10:00", "next": "2026-03-09T10:00:00-03:00", "status": "active" },
     { "name": "Weekly Product Hunting", "id": "60c29650", "frequency": "Miércoles 10:00", "next": "2026-03-11T10:00:00-03:00", "status": "active" }
