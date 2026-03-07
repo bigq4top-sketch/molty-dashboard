@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-03-07T17:38:00-03:00",
+  "lastUpdated": "2026-03-07T18:38:00-03:00",
   "agents": [
     {
       "id": "hunter",
@@ -85,19 +85,21 @@
       "role": "Director IA — Coordinación general",
       "status": "active",
       "channel": "#general / todos",
-      "lastTask": "Dashboard update automático (cron) + coordinación equipo de agentes + MEMORY.md actualizado",
-      "lastActivity": "2026-03-07T17:38:00-03:00",
-      "weeklyTasks": { "completed": 58, "total": 59 }
+      "lastTask": "Dashboard update automático (cron) + mantenimiento MEMORY.md",
+      "lastActivity": "2026-03-07T18:38:00-03:00",
+      "weeklyTasks": { "completed": 59, "total": 60 }
     }
   ],
   "metrics": {
-    "tasksToday": 23,
-    "tokensToday": 650000,
+    "tasksToday": 24,
+    "tokensToday": 660000,
     "reportsThisWeek": 19,
     "cronJobsActive": 10,
-    "tokenSparkline": [0, 0, 0, 0, 248500, 670000, 650000]
+    "tokenSparkline": [0, 0, 0, 0, 248500, 670000, 660000]
   },
   "timeline": [
+    { "agent": "MOLTY", "emoji": "🦾", "action": "dashboard update automático (cron)", "time": "18:38" },
+    { "agent": "MOLTY", "emoji": "🦾", "action": "MEMORY.md consolidado — limpieza de duplicados", "time": "18:07" },
     { "agent": "MOLTY", "emoji": "🦾", "action": "dashboard update automático (cron)", "time": "17:38" },
     { "agent": "MOLTY", "emoji": "🦾", "action": "dashboard update automático (cron)", "time": "16:38" },
     { "agent": "MOLTY", "emoji": "🦾", "action": "dashboard update automático (cron)", "time": "15:38" },
@@ -127,10 +129,10 @@
     { "date": "2026-03-04", "tokens": 0 },
     { "date": "2026-03-05", "tokens": 248500 },
     { "date": "2026-03-06", "tokens": 670000 },
-    { "date": "2026-03-07", "tokens": 650000 }
+    { "date": "2026-03-07", "tokens": 660000 }
   ],
   "cronJobs": [
-    { "name": "Dashboard Update", "id": "9265dc02", "frequency": "Cada 1 hora", "next": "2026-03-07T18:38:00-03:00", "status": "active" },
+    { "name": "Dashboard Update", "id": "9265dc02", "frequency": "Cada 1 hora", "next": "2026-03-07T19:38:00-03:00", "status": "active" },
     { "name": "Token Usage Report", "id": "cd8ba5da", "frequency": "Cada 2 horas", "next": "2026-03-07T18:54:00-03:00", "status": "active" },
     { "name": "Recordatorio ML Ads", "id": "84df2461", "frequency": "Diario 10:00", "next": "2026-03-08T10:00:00-03:00", "status": "active" },
     { "name": "Daily Standup", "id": "648321fb", "frequency": "Lun-Sáb 12:00", "next": "2026-03-09T12:00:00-03:00", "status": "active" },
