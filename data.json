@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-03-07T14:38:00-03:00",
+  "lastUpdated": "2026-03-07T15:38:00-03:00",
   "agents": [
     {
       "id": "hunter",
@@ -30,9 +30,9 @@
       "role": "Copywriter Elite",
       "status": "idle",
       "channel": "#copywriting",
-      "lastTask": "3 guiones de video Pelo/Piel/Uñas gotas (Problema/Solución 20-25s, UGC Testimonial 25-30s, Educativo rápido 18-22s) → publicado en #tin-guiones",
-      "lastActivity": "2026-03-07T13:38:00-03:00",
-      "weeklyTasks": { "completed": 3, "total": 3 }
+      "lastTask": "6 guiones de video Pelo/Piel/Uñas gotas — 3 para Tin (#tin-guiones) + 3 para Jairo (#jairo-guiones)",
+      "lastActivity": "2026-03-07T15:08:00-03:00",
+      "weeklyTasks": { "completed": 4, "total": 4 }
     },
     {
       "id": "nova",
@@ -85,19 +85,21 @@
       "role": "Director IA — Coordinación general",
       "status": "active",
       "channel": "#general / todos",
-      "lastTask": "Dashboard update automático (cron) + coordinación BLADE, NOVA y ORBIT",
-      "lastActivity": "2026-03-07T14:38:00-03:00",
-      "weeklyTasks": { "completed": 54, "total": 55 }
+      "lastTask": "Dashboard update automático (cron) + coordinación BLADE guiones Jairo",
+      "lastActivity": "2026-03-07T15:38:00-03:00",
+      "weeklyTasks": { "completed": 56, "total": 57 }
     }
   ],
   "metrics": {
-    "tasksToday": 19,
-    "tokensToday": 580000,
-    "reportsThisWeek": 17,
+    "tasksToday": 21,
+    "tokensToday": 620000,
+    "reportsThisWeek": 19,
     "cronJobsActive": 10,
-    "tokenSparkline": [0, 0, 0, 0, 248500, 670000, 580000]
+    "tokenSparkline": [0, 0, 0, 0, 248500, 670000, 620000]
   },
   "timeline": [
+    { "agent": "MOLTY", "emoji": "🦾", "action": "dashboard update automático (cron)", "time": "15:38" },
+    { "agent": "BLADE", "emoji": "✍️", "action": "3 guiones de video para Jairo (Versus, ASMR rutina, Meme POV) → publicado en #jairo-guiones", "time": "15:08" },
     { "agent": "MOLTY", "emoji": "🦾", "action": "dashboard update automático (cron)", "time": "14:38" },
     { "agent": "MOLTY", "emoji": "🦾", "action": "MEMORY.md actualizado con productos en testeo y reportes generados", "time": "14:37" },
     { "agent": "MOLTY", "emoji": "🦾", "action": "dashboard update automático (cron)", "time": "13:38" },
@@ -115,9 +117,7 @@
     { "agent": "MOLTY", "emoji": "🦾", "action": "dashboard update automático (cron)", "time": "09:38" },
     { "agent": "SHADOW", "emoji": "🕵️", "action": "análisis competitivo 3 productos testeo — gotas = blue ocean en AR", "time": "08:40" },
     { "agent": "MOLTY", "emoji": "🦾", "action": "dashboard update automático (cron)", "time": "08:38" },
-    { "agent": "MOLTY", "emoji": "🦾", "action": "heartbeat — daily note creado, sin subagentes activos", "time": "08:07" },
-    { "agent": "MOLTY", "emoji": "🦾", "action": "dashboard update automático (cron)", "time": "07:38" },
-    { "agent": "MOLTY", "emoji": "🦾", "action": "dashboard update automático (cron)", "time": "06:38" }
+    { "agent": "MOLTY", "emoji": "🦾", "action": "heartbeat — daily note creado, sin subagentes activos", "time": "08:07" }
   ],
   "tokenHistory": [
     { "date": "2026-03-01", "tokens": 0 },
@@ -126,11 +126,11 @@
     { "date": "2026-03-04", "tokens": 0 },
     { "date": "2026-03-05", "tokens": 248500 },
     { "date": "2026-03-06", "tokens": 670000 },
-    { "date": "2026-03-07", "tokens": 580000 }
+    { "date": "2026-03-07", "tokens": 620000 }
   ],
   "cronJobs": [
-    { "name": "Dashboard Update", "id": "9265dc02", "frequency": "Cada 1 hora", "next": "2026-03-07T15:38:00-03:00", "status": "active" },
-    { "name": "Token Usage Report", "id": "cd8ba5da", "frequency": "Cada 2 horas", "next": "2026-03-07T14:54:00-03:00", "status": "active" },
+    { "name": "Dashboard Update", "id": "9265dc02", "frequency": "Cada 1 hora", "next": "2026-03-07T16:38:00-03:00", "status": "active" },
+    { "name": "Token Usage Report", "id": "cd8ba5da", "frequency": "Cada 2 horas", "next": "2026-03-07T16:54:00-03:00", "status": "active" },
     { "name": "Recordatorio ML Ads", "id": "84df2461", "frequency": "Diario 10:00", "next": "2026-03-08T10:00:00-03:00", "status": "active" },
     { "name": "Daily Standup", "id": "648321fb", "frequency": "Lun-Sáb 12:00", "next": "2026-03-09T12:00:00-03:00", "status": "active" },
     { "name": "Weekly Competitive Intel", "id": "4dd03de0", "frequency": "Lunes 10:00", "next": "2026-03-09T10:00:00-03:00", "status": "active" },
