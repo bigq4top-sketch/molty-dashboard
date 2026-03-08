@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-03-08T08:38:00-03:00",
+  "lastUpdated": "2026-03-08T09:38:00-03:00",
   "agents": [
     {
       "id": "hunter",
@@ -85,19 +85,20 @@
       "role": "Director IA — Coordinación general",
       "status": "active",
       "channel": "#general / todos",
-      "lastTask": "Dashboard update automático (cron) + HUNTER lanzado para product research",
-      "lastActivity": "2026-03-08T08:38:00-03:00",
-      "weeklyTasks": { "completed": 75, "total": 76 }
+      "lastTask": "Dashboard update automático (cron) + coordinación general",
+      "lastActivity": "2026-03-08T09:38:00-03:00",
+      "weeklyTasks": { "completed": 76, "total": 77 }
     }
   ],
   "metrics": {
-    "tasksToday": 2,
-    "tokensToday": 350000,
+    "tasksToday": 3,
+    "tokensToday": 380000,
     "reportsThisWeek": 19,
     "cronJobsActive": 10,
-    "tokenSparkline": [0, 0, 0, 248500, 670000, 820000, 350000]
+    "tokenSparkline": [0, 0, 0, 248500, 670000, 820000, 380000]
   },
   "timeline": [
+    { "agent": "MOLTY", "emoji": "🦾", "action": "dashboard update automático (cron)", "time": "09:38" },
     { "agent": "MOLTY", "emoji": "🦾", "action": "dashboard update automático (cron)", "time": "08:38" },
     { "agent": "HUNTER", "emoji": "🔬", "action": "lanzado: búsqueda productos ganadores nuevos (suplementos tendencia 2025-2026)", "time": "08:27" },
     { "agent": "MOLTY", "emoji": "🦾", "action": "dashboard update automático (cron)", "time": "07:38" },
@@ -116,8 +117,7 @@
     { "agent": "MOLTY", "emoji": "🦾", "action": "Laura confirmó: productos Depurel/Linfatic vencen 2028", "time": "19:42" },
     { "agent": "MOLTY", "emoji": "🦾", "action": "MEMORY.md consolidado — limpieza de duplicados", "time": "18:07" },
     { "agent": "BLADE", "emoji": "✍️", "action": "3 guiones de video para Jairo (Versus, ASMR rutina, Meme POV) → publicado en #jairo-guiones", "time": "15:08" },
-    { "agent": "MOLTY", "emoji": "🦾", "action": "MEMORY.md actualizado con productos en testeo y reportes generados", "time": "14:37" },
-    { "agent": "BLADE", "emoji": "✍️", "action": "3 guiones de video Pelo/Piel/Uñas gotas completados → publicado en #tin-guiones", "time": "13:38" }
+    { "agent": "MOLTY", "emoji": "🦾", "action": "MEMORY.md actualizado con productos en testeo y reportes generados", "time": "14:37" }
   ],
   "tokenHistory": [
     { "date": "2026-03-02", "tokens": 0 },
@@ -126,14 +126,14 @@
     { "date": "2026-03-05", "tokens": 248500 },
     { "date": "2026-03-06", "tokens": 670000 },
     { "date": "2026-03-07", "tokens": 820000 },
-    { "date": "2026-03-08", "tokens": 350000 }
+    { "date": "2026-03-08", "tokens": 380000 }
   ],
   "cronJobs": [
-    { "name": "Dashboard Update", "id": "9265dc02", "frequency": "Cada 1 hora", "next": "2026-03-08T09:38:00-03:00", "status": "active" },
-    { "name": "Token Usage Report", "id": "cd8ba5da", "frequency": "Cada 2 horas", "next": "2026-03-08T08:54:00-03:00", "status": "active" },
+    { "name": "Dashboard Update", "id": "9265dc02", "frequency": "Cada 1 hora", "next": "2026-03-08T10:38:00-03:00", "status": "active" },
     { "name": "Recordatorio ML Ads", "id": "84df2461", "frequency": "Diario 10:00", "next": "2026-03-08T10:00:00-03:00", "status": "active" },
-    { "name": "Daily Standup", "id": "648321fb", "frequency": "Lun-Sáb 12:00", "next": "2026-03-09T12:00:00-03:00", "status": "active" },
+    { "name": "Token Usage Report", "id": "cd8ba5da", "frequency": "Cada 2 horas", "next": "2026-03-08T10:54:00-03:00", "status": "active" },
     { "name": "Weekly Competitive Intel", "id": "4dd03de0", "frequency": "Lunes 10:00", "next": "2026-03-09T10:00:00-03:00", "status": "active" },
+    { "name": "Daily Standup", "id": "648321fb", "frequency": "Lun-Sáb 12:00", "next": "2026-03-09T12:00:00-03:00", "status": "active" },
     { "name": "Recordatorio reunión (noche anterior)", "id": "587c8f61", "frequency": "Una vez — Mar 10/3 22:00", "next": "2026-03-11T01:00:00-03:00", "status": "pending" },
     { "name": "Weekly Product Hunting", "id": "60c29650", "frequency": "Miércoles 10:00", "next": "2026-03-11T10:00:00-03:00", "status": "active" },
     { "name": "Recordatorio reunión (mismo día)", "id": "00bf8d78", "frequency": "Una vez — Mar 11/3 10:30", "next": "2026-03-11T13:30:00-03:00", "status": "pending" },
