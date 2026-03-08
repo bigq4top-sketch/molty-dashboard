@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-03-08T01:38:00-03:00",
+  "lastUpdated": "2026-03-08T02:38:00-03:00",
   "agents": [
     {
       "id": "hunter",
@@ -86,18 +86,19 @@
       "status": "active",
       "channel": "#general / todos",
       "lastTask": "Dashboard update automático (cron)",
-      "lastActivity": "2026-03-08T01:38:00-03:00",
-      "weeklyTasks": { "completed": 67, "total": 68 }
+      "lastActivity": "2026-03-08T02:38:00-03:00",
+      "weeklyTasks": { "completed": 68, "total": 69 }
     }
   ],
   "metrics": {
-    "tasksToday": 2,
-    "tokensToday": 135000,
+    "tasksToday": 3,
+    "tokensToday": 139000,
     "reportsThisWeek": 19,
     "cronJobsActive": 10,
-    "tokenSparkline": [0, 0, 0, 248500, 670000, 820000, 135000]
+    "tokenSparkline": [0, 0, 0, 248500, 670000, 820000, 139000]
   },
   "timeline": [
+    { "agent": "MOLTY", "emoji": "🦾", "action": "dashboard update automático (cron)", "time": "02:38" },
     { "agent": "MOLTY", "emoji": "🦾", "action": "dashboard update automático (cron)", "time": "01:38" },
     { "agent": "MOLTY", "emoji": "🦾", "action": "dashboard update automático (cron)", "time": "00:38" },
     { "agent": "MOLTY", "emoji": "🦾", "action": "dashboard update automático (cron)", "time": "23:38" },
@@ -125,19 +126,19 @@
     { "date": "2026-03-05", "tokens": 248500 },
     { "date": "2026-03-06", "tokens": 670000 },
     { "date": "2026-03-07", "tokens": 820000 },
-    { "date": "2026-03-08", "tokens": 135000 }
+    { "date": "2026-03-08", "tokens": 139000 }
   ],
   "cronJobs": [
-    { "name": "Dashboard Update", "id": "9265dc02", "frequency": "Cada 1 hora", "next": "2026-03-08T02:38:00-03:00", "status": "active" },
-    { "name": "Token Usage Report", "id": "cd8ba5da", "frequency": "Cada 2 horas", "next": "2026-03-08T02:38:00-03:00", "status": "active" },
+    { "name": "Dashboard Update", "id": "9265dc02", "frequency": "Cada 1 hora", "next": "2026-03-08T03:38:00-03:00", "status": "active" },
+    { "name": "Token Usage Report", "id": "cd8ba5da", "frequency": "Cada 2 horas", "next": "2026-03-08T02:54:00-03:00", "status": "active" },
     { "name": "Recordatorio ML Ads", "id": "84df2461", "frequency": "Diario 10:00", "next": "2026-03-08T10:00:00-03:00", "status": "active" },
     { "name": "Daily Standup", "id": "648321fb", "frequency": "Lun-Sáb 12:00", "next": "2026-03-09T12:00:00-03:00", "status": "active" },
     { "name": "Weekly Competitive Intel", "id": "4dd03de0", "frequency": "Lunes 10:00", "next": "2026-03-09T10:00:00-03:00", "status": "active" },
-    { "name": "Recordatorio reunión (noche anterior)", "id": "587c8f61", "frequency": "Una vez — Mar 10/3 22:00", "next": "2026-03-10T22:00:00-03:00", "status": "pending" },
+    { "name": "Recordatorio reunión (noche anterior)", "id": "587c8f61", "frequency": "Una vez — Mar 10/3 22:00", "next": "2026-03-11T01:00:00-03:00", "status": "pending" },
     { "name": "Weekly Product Hunting", "id": "60c29650", "frequency": "Miércoles 10:00", "next": "2026-03-11T10:00:00-03:00", "status": "active" },
-    { "name": "Recordatorio reunión (mismo día)", "id": "00bf8d78", "frequency": "Una vez — Mar 11/3 10:30", "next": "2026-03-11T10:30:00-03:00", "status": "pending" },
-    { "name": "Recordatorio psicofísico (noche anterior)", "id": "6f8e34c3", "frequency": "Una vez — Dom 22/3 22:00", "next": "2026-03-22T22:00:00-03:00", "status": "pending" },
-    { "name": "Recordatorio psicofísico (mismo día)", "id": "039998ff", "frequency": "Una vez — Lun 23/3 08:00", "next": "2026-03-23T08:00:00-03:00", "status": "pending" }
+    { "name": "Recordatorio reunión (mismo día)", "id": "00bf8d78", "frequency": "Una vez — Mar 11/3 10:30", "next": "2026-03-11T13:30:00-03:00", "status": "pending" },
+    { "name": "Recordatorio psicofísico (noche anterior)", "id": "6f8e34c3", "frequency": "Una vez — Dom 22/3 22:00", "next": "2026-03-23T01:00:00-03:00", "status": "pending" },
+    { "name": "Recordatorio psicofísico (mismo día)", "id": "039998ff", "frequency": "Una vez — Lun 23/3 08:00", "next": "2026-03-23T11:00:00-03:00", "status": "pending" }
   ],
   "team": [
     { "name": "Ramon", "role": "CEO", "color": "red", "status": "offline" },
