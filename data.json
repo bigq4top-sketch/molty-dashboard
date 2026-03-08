@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-03-08T15:38:00-03:00",
+  "lastUpdated": "2026-03-08T16:38:00-03:00",
   "agents": [
     {
       "id": "hunter",
@@ -72,11 +72,11 @@
       "name": "ORBIT",
       "emoji": "🔍",
       "role": "SEO Specialist",
-      "status": "idle",
+      "status": "active",
       "channel": "#seo-strategy",
-      "lastTask": "Keyword research 3 productos testeo — +30K búsq/mes pelo/piel/uñas, competencia MUY BAJA en gotas",
-      "lastActivity": "2026-03-07T12:11:00-03:00",
-      "weeklyTasks": { "completed": 3, "total": 3 }
+      "lastTask": "Research keywords y SEO para Berberina, Ashwagandha, L-Carnitina (en progreso)",
+      "lastActivity": "2026-03-08T15:57:00-03:00",
+      "weeklyTasks": { "completed": 3, "total": 4 }
     },
     {
       "id": "molty",
@@ -86,18 +86,20 @@
       "status": "active",
       "channel": "#general / todos",
       "lastTask": "Dashboard update automático (cron) + coordinación general",
-      "lastActivity": "2026-03-08T15:38:00-03:00",
-      "weeklyTasks": { "completed": 82, "total": 83 }
+      "lastActivity": "2026-03-08T16:38:00-03:00",
+      "weeklyTasks": { "completed": 83, "total": 84 }
     }
   ],
   "metrics": {
-    "tasksToday": 5,
-    "tokensToday": 620000,
-    "reportsThisWeek": 21,
+    "tasksToday": 6,
+    "tokensToday": 650000,
+    "reportsThisWeek": 22,
     "cronJobsActive": 10,
-    "tokenSparkline": [0, 0, 0, 248500, 670000, 820000, 620000]
+    "tokenSparkline": [0, 0, 0, 248500, 670000, 820000, 650000]
   },
   "timeline": [
+    { "agent": "MOLTY", "emoji": "🦾", "action": "dashboard update automático (cron)", "time": "16:38" },
+    { "agent": "ORBIT", "emoji": "🔍", "action": "lanzado: research keywords/SEO para Berberina, Ashwagandha, L-Carnitina", "time": "15:57" },
     { "agent": "MOLTY", "emoji": "🦾", "action": "dashboard update automático (cron)", "time": "15:38" },
     { "agent": "MOLTY", "emoji": "🦾", "action": "mantenimiento: actualización de memoria", "time": "14:57" },
     { "agent": "MOLTY", "emoji": "🦾", "action": "dashboard update automático (cron)", "time": "14:38" },
@@ -115,9 +117,7 @@
     { "agent": "MOLTY", "emoji": "🦾", "action": "token usage report (cron)", "time": "06:54" },
     { "agent": "MOLTY", "emoji": "🦾", "action": "dashboard update automático (cron)", "time": "06:38" },
     { "agent": "MOLTY", "emoji": "🦾", "action": "dashboard update automático (cron)", "time": "05:38" },
-    { "agent": "MOLTY", "emoji": "🦾", "action": "token usage report (cron)", "time": "04:54" },
-    { "agent": "MOLTY", "emoji": "🦾", "action": "dashboard update automático (cron)", "time": "04:38" },
-    { "agent": "MOLTY", "emoji": "🦾", "action": "dashboard update automático (cron)", "time": "03:38" }
+    { "agent": "MOLTY", "emoji": "🦾", "action": "token usage report (cron)", "time": "04:54" }
   ],
   "tokenHistory": [
     { "date": "2026-03-02", "tokens": 0 },
@@ -126,10 +126,10 @@
     { "date": "2026-03-05", "tokens": 248500 },
     { "date": "2026-03-06", "tokens": 670000 },
     { "date": "2026-03-07", "tokens": 820000 },
-    { "date": "2026-03-08", "tokens": 620000 }
+    { "date": "2026-03-08", "tokens": 650000 }
   ],
   "cronJobs": [
-    { "name": "Dashboard Update", "id": "9265dc02", "frequency": "Cada 1 hora", "next": "2026-03-08T16:38:00-03:00", "status": "active" },
+    { "name": "Dashboard Update", "id": "9265dc02", "frequency": "Cada 1 hora", "next": "2026-03-08T17:38:00-03:00", "status": "active" },
     { "name": "Token Usage Report", "id": "cd8ba5da", "frequency": "Cada 2 horas", "next": "2026-03-08T16:54:00-03:00", "status": "active" },
     { "name": "Recordatorio ML Ads", "id": "84df2461", "frequency": "Diario 10:00", "next": "2026-03-09T10:00:00-03:00", "status": "active" },
     { "name": "Weekly Competitive Intel", "id": "4dd03de0", "frequency": "Lunes 10:00", "next": "2026-03-09T10:00:00-03:00", "status": "active" },
