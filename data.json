@@ -1,16 +1,16 @@
 {
-  "lastUpdated": "2026-03-08T07:38:00-03:00",
+  "lastUpdated": "2026-03-08T08:38:00-03:00",
   "agents": [
     {
       "id": "hunter",
       "name": "HUNTER",
       "emoji": "🔬",
       "role": "Product Research Lead",
-      "status": "idle",
+      "status": "active",
       "channel": "#research-productos",
-      "lastTask": "108 productos investigados → 37 viables filtrados + plan testeo 3 olas (100-PRODUCTOS-RESEARCH.md)",
-      "lastActivity": "2026-03-06T05:00:00-03:00",
-      "weeklyTasks": { "completed": 2, "total": 2 }
+      "lastTask": "Búsqueda de productos ganadores nuevos (suplementos tendencia 2025-2026) — lanzado 08:27",
+      "lastActivity": "2026-03-08T08:27:00-03:00",
+      "weeklyTasks": { "completed": 3, "total": 3 }
     },
     {
       "id": "shadow",
@@ -85,19 +85,21 @@
       "role": "Director IA — Coordinación general",
       "status": "active",
       "channel": "#general / todos",
-      "lastTask": "Dashboard update automático (cron)",
-      "lastActivity": "2026-03-08T07:38:00-03:00",
-      "weeklyTasks": { "completed": 73, "total": 74 }
+      "lastTask": "Dashboard update automático (cron) + HUNTER lanzado para product research",
+      "lastActivity": "2026-03-08T08:38:00-03:00",
+      "weeklyTasks": { "completed": 75, "total": 76 }
     }
   ],
   "metrics": {
-    "tasksToday": 8,
-    "tokensToday": 315000,
+    "tasksToday": 2,
+    "tokensToday": 350000,
     "reportsThisWeek": 19,
     "cronJobsActive": 10,
-    "tokenSparkline": [0, 0, 0, 248500, 670000, 820000, 315000]
+    "tokenSparkline": [0, 0, 0, 248500, 670000, 820000, 350000]
   },
   "timeline": [
+    { "agent": "MOLTY", "emoji": "🦾", "action": "dashboard update automático (cron)", "time": "08:38" },
+    { "agent": "HUNTER", "emoji": "🔬", "action": "lanzado: búsqueda productos ganadores nuevos (suplementos tendencia 2025-2026)", "time": "08:27" },
     { "agent": "MOLTY", "emoji": "🦾", "action": "dashboard update automático (cron)", "time": "07:38" },
     { "agent": "MOLTY", "emoji": "🦾", "action": "token usage report (cron)", "time": "06:54" },
     { "agent": "MOLTY", "emoji": "🦾", "action": "dashboard update automático (cron)", "time": "06:38" },
@@ -115,9 +117,7 @@
     { "agent": "MOLTY", "emoji": "🦾", "action": "MEMORY.md consolidado — limpieza de duplicados", "time": "18:07" },
     { "agent": "BLADE", "emoji": "✍️", "action": "3 guiones de video para Jairo (Versus, ASMR rutina, Meme POV) → publicado en #jairo-guiones", "time": "15:08" },
     { "agent": "MOLTY", "emoji": "🦾", "action": "MEMORY.md actualizado con productos en testeo y reportes generados", "time": "14:37" },
-    { "agent": "BLADE", "emoji": "✍️", "action": "3 guiones de video Pelo/Piel/Uñas gotas completados → publicado en #tin-guiones", "time": "13:38" },
-    { "agent": "NOVA", "emoji": "🎯", "action": "estrategia Meta Ads Pelo/Piel/Uñas gotas completada → publicado en #estrategia-media", "time": "13:10" },
-    { "agent": "ORBIT", "emoji": "🔍", "action": "keyword research 3 productos testeo completado → publicado en #seo", "time": "12:11" }
+    { "agent": "BLADE", "emoji": "✍️", "action": "3 guiones de video Pelo/Piel/Uñas gotas completados → publicado en #tin-guiones", "time": "13:38" }
   ],
   "tokenHistory": [
     { "date": "2026-03-02", "tokens": 0 },
@@ -126,10 +126,10 @@
     { "date": "2026-03-05", "tokens": 248500 },
     { "date": "2026-03-06", "tokens": 670000 },
     { "date": "2026-03-07", "tokens": 820000 },
-    { "date": "2026-03-08", "tokens": 315000 }
+    { "date": "2026-03-08", "tokens": 350000 }
   ],
   "cronJobs": [
-    { "name": "Dashboard Update", "id": "9265dc02", "frequency": "Cada 1 hora", "next": "2026-03-08T08:38:00-03:00", "status": "active" },
+    { "name": "Dashboard Update", "id": "9265dc02", "frequency": "Cada 1 hora", "next": "2026-03-08T09:38:00-03:00", "status": "active" },
     { "name": "Token Usage Report", "id": "cd8ba5da", "frequency": "Cada 2 horas", "next": "2026-03-08T08:54:00-03:00", "status": "active" },
     { "name": "Recordatorio ML Ads", "id": "84df2461", "frequency": "Diario 10:00", "next": "2026-03-08T10:00:00-03:00", "status": "active" },
     { "name": "Daily Standup", "id": "648321fb", "frequency": "Lun-Sáb 12:00", "next": "2026-03-09T12:00:00-03:00", "status": "active" },
