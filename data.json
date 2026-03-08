@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-03-08T11:38:00-03:00",
+  "lastUpdated": "2026-03-08T12:38:00-03:00",
   "agents": [
     {
       "id": "hunter",
@@ -86,23 +86,24 @@
       "status": "active",
       "channel": "#general / todos",
       "lastTask": "Dashboard update automático (cron) + coordinación general",
-      "lastActivity": "2026-03-08T11:38:00-03:00",
-      "weeklyTasks": { "completed": 78, "total": 79 }
+      "lastActivity": "2026-03-08T12:38:00-03:00",
+      "weeklyTasks": { "completed": 79, "total": 80 }
     }
   ],
   "metrics": {
     "tasksToday": 3,
-    "tokensToday": 450000,
+    "tokensToday": 500000,
     "reportsThisWeek": 19,
     "cronJobsActive": 10,
-    "tokenSparkline": [0, 0, 0, 248500, 670000, 820000, 450000]
+    "tokenSparkline": [0, 0, 0, 248500, 670000, 820000, 500000]
   },
   "timeline": [
+    { "agent": "MOLTY", "emoji": "🦾", "action": "dashboard update automático (cron)", "time": "12:38" },
     { "agent": "MOLTY", "emoji": "🦾", "action": "dashboard update automático (cron)", "time": "11:38" },
     { "agent": "MOLTY", "emoji": "🦾", "action": "dashboard update automático (cron)", "time": "10:38" },
     { "agent": "MOLTY", "emoji": "🦾", "action": "dashboard update automático (cron)", "time": "09:38" },
-    { "agent": "MOLTY", "emoji": "🦾", "action": "dashboard update automático (cron)", "time": "08:38" },
     { "agent": "HUNTER", "emoji": "🔬", "action": "lanzado: búsqueda productos ganadores nuevos (suplementos tendencia 2025-2026)", "time": "08:27" },
+    { "agent": "MOLTY", "emoji": "🦾", "action": "dashboard update automático (cron)", "time": "08:38" },
     { "agent": "MOLTY", "emoji": "🦾", "action": "dashboard update automático (cron)", "time": "07:38" },
     { "agent": "MOLTY", "emoji": "🦾", "action": "token usage report (cron)", "time": "06:54" },
     { "agent": "MOLTY", "emoji": "🦾", "action": "dashboard update automático (cron)", "time": "06:38" },
@@ -116,8 +117,7 @@
     { "agent": "MOLTY", "emoji": "🦾", "action": "dashboard update automático (cron)", "time": "00:38" },
     { "agent": "MOLTY", "emoji": "🦾", "action": "dashboard update automático (cron)", "time": "23:38" },
     { "agent": "MOLTY", "emoji": "🦾", "action": "MEMORY.md actualizado — consolidación de notas", "time": "21:27" },
-    { "agent": "MOLTY", "emoji": "🦾", "action": "Laura confirmó: productos Depurel/Linfatic vencen 2028", "time": "19:42" },
-    { "agent": "MOLTY", "emoji": "🦾", "action": "MEMORY.md consolidado — limpieza de duplicados", "time": "18:07" }
+    { "agent": "MOLTY", "emoji": "🦾", "action": "Laura confirmó: productos Depurel/Linfatic vencen 2028", "time": "19:42" }
   ],
   "tokenHistory": [
     { "date": "2026-03-02", "tokens": 0 },
@@ -126,10 +126,10 @@
     { "date": "2026-03-05", "tokens": 248500 },
     { "date": "2026-03-06", "tokens": 670000 },
     { "date": "2026-03-07", "tokens": 820000 },
-    { "date": "2026-03-08", "tokens": 450000 }
+    { "date": "2026-03-08", "tokens": 500000 }
   ],
   "cronJobs": [
-    { "name": "Dashboard Update", "id": "9265dc02", "frequency": "Cada 1 hora", "next": "2026-03-08T12:38:00-03:00", "status": "active" },
+    { "name": "Dashboard Update", "id": "9265dc02", "frequency": "Cada 1 hora", "next": "2026-03-08T13:38:00-03:00", "status": "active" },
     { "name": "Token Usage Report", "id": "cd8ba5da", "frequency": "Cada 2 horas", "next": "2026-03-08T12:54:00-03:00", "status": "active" },
     { "name": "Recordatorio ML Ads", "id": "84df2461", "frequency": "Diario 10:00", "next": "2026-03-09T10:00:00-03:00", "status": "active" },
     { "name": "Weekly Competitive Intel", "id": "4dd03de0", "frequency": "Lunes 10:00", "next": "2026-03-09T10:00:00-03:00", "status": "active" },
