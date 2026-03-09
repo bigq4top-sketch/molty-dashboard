@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-03-09T09:38:00-03:00",
+  "lastUpdated": "2026-03-09T10:38:00-03:00",
   "agents": [
     {
       "id": "hunter",
@@ -85,49 +85,38 @@
       "role": "Director IA — Coordinación general",
       "status": "active",
       "channel": "#general / todos",
-      "lastTask": "Dashboard update automático (cron)",
-      "lastActivity": "2026-03-09T09:38:00-03:00",
-      "weeklyTasks": { "completed": 100, "total": 100 }
+      "lastTask": "Dashboard update + cron management (Weekly Intel, ML Ads reminder, Token Report)",
+      "lastActivity": "2026-03-09T10:38:00-03:00",
+      "weeklyTasks": { "completed": 112, "total": 112 }
     }
   ],
   "metrics": {
-    "tasksToday": 10,
-    "tokensToday": 480000,
-    "reportsThisWeek": 23,
+    "tasksToday": 4,
+    "tokensToday": 520000,
+    "reportsThisWeek": 24,
     "cronJobsActive": 10,
-    "tokenSparkline": [0, 0, 248500, 670000, 820000, 880000, 480000]
+    "tokenSparkline": [0, 0, 248500, 670000, 820000, 880000, 520000]
   },
   "timeline": [
+    { "agent": "MOLTY", "emoji": "🦾", "action": "dashboard update automático (cron)", "time": "10:38" },
+    { "agent": "MOLTY", "emoji": "🦾", "action": "recordatorio ML Ads (cron)", "time": "10:01" },
+    { "agent": "MOLTY", "emoji": "🦾", "action": "weekly competitive intel (cron) — ejecutado", "time": "09:59" },
     { "agent": "MOLTY", "emoji": "🦾", "action": "dashboard update automático (cron)", "time": "09:38" },
+    { "agent": "MOLTY", "emoji": "🦾", "action": "token usage report (cron)", "time": "08:54" },
     { "agent": "MOLTY", "emoji": "🦾", "action": "dashboard update automático (cron)", "time": "08:38" },
     { "agent": "MOLTY", "emoji": "🦾", "action": "dashboard update automático (cron)", "time": "07:38" },
-    { "agent": "MOLTY", "emoji": "🦾", "action": "token usage report (cron)", "time": "06:54" },
     { "agent": "MOLTY", "emoji": "🦾", "action": "dashboard update automático (cron)", "time": "06:38" },
     { "agent": "MOLTY", "emoji": "🦾", "action": "dashboard update automático (cron)", "time": "05:38" },
     { "agent": "MOLTY", "emoji": "🦾", "action": "dashboard update automático (cron)", "time": "04:38" },
     { "agent": "MOLTY", "emoji": "🦾", "action": "dashboard update automático (cron)", "time": "03:38" },
-    { "agent": "MOLTY", "emoji": "🦾", "action": "token usage report (cron)", "time": "02:54" },
     { "agent": "MOLTY", "emoji": "🦾", "action": "dashboard update automático (cron)", "time": "02:38" },
     { "agent": "MOLTY", "emoji": "🦾", "action": "dashboard update automático (cron)", "time": "01:38" },
     { "agent": "MOLTY", "emoji": "🦾", "action": "dashboard update automático (cron)", "time": "00:38" },
-    { "agent": "MOLTY", "emoji": "🦾", "action": "dashboard update automático (cron)", "time": "23:38" },
-    { "agent": "MOLTY", "emoji": "🦾", "action": "dashboard update automático (cron)", "time": "22:38" },
-    { "agent": "MOLTY", "emoji": "🦾", "action": "token usage report (cron)", "time": "21:54" },
-    { "agent": "MOLTY", "emoji": "🦾", "action": "dashboard update automático (cron)", "time": "21:38" },
-    { "agent": "MOLTY", "emoji": "🦾", "action": "dashboard update automático (cron)", "time": "20:38" },
-    { "agent": "MOLTY", "emoji": "🦾", "action": "dashboard update automático (cron)", "time": "19:38" },
-    { "agent": "MOLTY", "emoji": "🦾", "action": "dashboard update automático (cron)", "time": "18:38" },
-    { "agent": "MOLTY", "emoji": "🦾", "action": "dashboard update automático (cron)", "time": "17:38" },
-    { "agent": "ORBIT", "emoji": "🔍", "action": "completado: keywords/SEO Berberina, Ashwagandha, L-Carnitina — berberina gotas competencia CERO", "time": "16:01" },
-    { "agent": "ORBIT", "emoji": "🔍", "action": "lanzado: research keywords/SEO para Berberina, Ashwagandha, L-Carnitina", "time": "15:57" },
-    { "agent": "MOLTY", "emoji": "🦾", "action": "dashboard update automático (cron)", "time": "15:38" },
-    { "agent": "MOLTY", "emoji": "🦾", "action": "mantenimiento: actualización de memoria", "time": "14:57" },
-    { "agent": "MOLTY", "emoji": "🦾", "action": "dashboard update automático (cron)", "time": "14:38" },
-    { "agent": "MOLTY", "emoji": "🦾", "action": "dashboard update automático (cron)", "time": "13:38" },
-    { "agent": "SHADOW", "emoji": "🕵️", "action": "completado: intel competitiva Berberina/Ashwagandha/L-Carnitina — Berberina gotas blue ocean", "time": "12:30" },
-    { "agent": "MOLTY", "emoji": "🦾", "action": "dashboard update automático (cron)", "time": "12:38" },
-    { "agent": "MOLTY", "emoji": "🦾", "action": "dashboard update automático (cron)", "time": "11:38" },
-    { "agent": "MOLTY", "emoji": "🦾", "action": "dashboard update automático (cron)", "time": "10:38" }
+    { "agent": "ORBIT", "emoji": "🔍", "action": "completado: keywords/SEO Berberina, Ashwagandha, L-Carnitina — berberina gotas competencia CERO", "time": "2026-03-08 16:01" },
+    { "agent": "SHADOW", "emoji": "🕵️", "action": "completado: intel competitiva Berberina/Ashwagandha/L-Carnitina — Berberina gotas blue ocean", "time": "2026-03-08 12:30" },
+    { "agent": "HUNTER", "emoji": "🔬", "action": "completado: Top 8 productos, Top 3 en gotas identificados", "time": "2026-03-08 08:29" },
+    { "agent": "BLADE", "emoji": "✍️", "action": "6 guiones video Pelo/Piel/Uñas — 3 Tin + 3 Jairo", "time": "2026-03-07 15:08" },
+    { "agent": "NOVA", "emoji": "🎯", "action": "estrategia Meta Ads Pelo/Piel/Uñas lista — $20/día × 10 días", "time": "2026-03-07 13:10" }
   ],
   "tokenHistory": [
     { "date": "2026-03-03", "tokens": 0 },
@@ -136,16 +125,16 @@
     { "date": "2026-03-06", "tokens": 670000 },
     { "date": "2026-03-07", "tokens": 820000 },
     { "date": "2026-03-08", "tokens": 880000 },
-    { "date": "2026-03-09", "tokens": 480000 }
+    { "date": "2026-03-09", "tokens": 520000 }
   ],
   "cronJobs": [
-    { "name": "Dashboard Update", "id": "9265dc02", "frequency": "Cada 1 hora", "next": "2026-03-09T10:38:00-03:00", "status": "active" },
-    { "name": "Weekly Competitive Intel", "id": "4dd03de0", "frequency": "Lunes 10:00", "next": "2026-03-09T10:00:00-03:00", "status": "active" },
-    { "name": "Recordatorio ML Ads", "id": "84df2461", "frequency": "Diario 10:00", "next": "2026-03-09T10:00:00-03:00", "status": "active" },
+    { "name": "Dashboard Update", "id": "9265dc02", "frequency": "Cada 1 hora", "next": "2026-03-09T11:38:00-03:00", "status": "active" },
     { "name": "Token Usage Report", "id": "cd8ba5da", "frequency": "Cada 2 horas", "next": "2026-03-09T10:54:00-03:00", "status": "active" },
     { "name": "Daily Standup", "id": "648321fb", "frequency": "Lun-Sáb 12:00", "next": "2026-03-09T12:00:00-03:00", "status": "active" },
-    { "name": "Recordatorio reunión (noche anterior)", "id": "587c8f61", "frequency": "Una vez — Mar 10/3 22:00", "next": "2026-03-11T01:00:00-03:00", "status": "pending" },
+    { "name": "Recordatorio ML Ads", "id": "84df2461", "frequency": "Diario 10:00", "next": "2026-03-10T10:00:00-03:00", "status": "active" },
+    { "name": "Weekly Competitive Intel", "id": "4dd03de0", "frequency": "Lunes 10:00", "next": "2026-03-16T10:00:00-03:00", "status": "active" },
     { "name": "Weekly Product Hunting", "id": "60c29650", "frequency": "Miércoles 10:00", "next": "2026-03-11T10:00:00-03:00", "status": "active" },
+    { "name": "Recordatorio reunión (noche anterior)", "id": "587c8f61", "frequency": "Una vez — Mar 10/3 22:00", "next": "2026-03-11T01:00:00-03:00", "status": "pending" },
     { "name": "Recordatorio reunión (mismo día)", "id": "00bf8d78", "frequency": "Una vez — Mar 11/3 10:30", "next": "2026-03-11T13:30:00-03:00", "status": "pending" },
     { "name": "Recordatorio psicofísico (noche anterior)", "id": "6f8e34c3", "frequency": "Una vez — Dom 22/3 22:00", "next": "2026-03-23T01:00:00-03:00", "status": "pending" },
     { "name": "Recordatorio psicofísico (mismo día)", "id": "039998ff", "frequency": "Una vez — Lun 23/3 08:00", "next": "2026-03-23T11:00:00-03:00", "status": "pending" }
