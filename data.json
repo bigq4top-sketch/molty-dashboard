@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-03-09T08:38:00-03:00",
+  "lastUpdated": "2026-03-09T09:38:00-03:00",
   "agents": [
     {
       "id": "hunter",
@@ -86,18 +86,19 @@
       "status": "active",
       "channel": "#general / todos",
       "lastTask": "Dashboard update automático (cron)",
-      "lastActivity": "2026-03-09T08:38:00-03:00",
-      "weeklyTasks": { "completed": 99, "total": 100 }
+      "lastActivity": "2026-03-09T09:38:00-03:00",
+      "weeklyTasks": { "completed": 100, "total": 100 }
     }
   ],
   "metrics": {
-    "tasksToday": 9,
-    "tokensToday": 445000,
+    "tasksToday": 10,
+    "tokensToday": 480000,
     "reportsThisWeek": 23,
     "cronJobsActive": 10,
-    "tokenSparkline": [0, 0, 248500, 670000, 820000, 880000, 445000]
+    "tokenSparkline": [0, 0, 248500, 670000, 820000, 880000, 480000]
   },
   "timeline": [
+    { "agent": "MOLTY", "emoji": "🦾", "action": "dashboard update automático (cron)", "time": "09:38" },
     { "agent": "MOLTY", "emoji": "🦾", "action": "dashboard update automático (cron)", "time": "08:38" },
     { "agent": "MOLTY", "emoji": "🦾", "action": "dashboard update automático (cron)", "time": "07:38" },
     { "agent": "MOLTY", "emoji": "🦾", "action": "token usage report (cron)", "time": "06:54" },
@@ -126,8 +127,7 @@
     { "agent": "SHADOW", "emoji": "🕵️", "action": "completado: intel competitiva Berberina/Ashwagandha/L-Carnitina — Berberina gotas blue ocean", "time": "12:30" },
     { "agent": "MOLTY", "emoji": "🦾", "action": "dashboard update automático (cron)", "time": "12:38" },
     { "agent": "MOLTY", "emoji": "🦾", "action": "dashboard update automático (cron)", "time": "11:38" },
-    { "agent": "MOLTY", "emoji": "🦾", "action": "dashboard update automático (cron)", "time": "10:38" },
-    { "agent": "SHADOW", "emoji": "🕵️", "action": "lanzado: análisis competitivo ML + ecommerce AR para nuevos productos", "time": "10:00" }
+    { "agent": "MOLTY", "emoji": "🦾", "action": "dashboard update automático (cron)", "time": "10:38" }
   ],
   "tokenHistory": [
     { "date": "2026-03-03", "tokens": 0 },
@@ -136,13 +136,13 @@
     { "date": "2026-03-06", "tokens": 670000 },
     { "date": "2026-03-07", "tokens": 820000 },
     { "date": "2026-03-08", "tokens": 880000 },
-    { "date": "2026-03-09", "tokens": 445000 }
+    { "date": "2026-03-09", "tokens": 480000 }
   ],
   "cronJobs": [
-    { "name": "Dashboard Update", "id": "9265dc02", "frequency": "Cada 1 hora", "next": "2026-03-09T09:38:00-03:00", "status": "active" },
-    { "name": "Token Usage Report", "id": "cd8ba5da", "frequency": "Cada 2 horas", "next": "2026-03-09T08:54:00-03:00", "status": "active" },
+    { "name": "Dashboard Update", "id": "9265dc02", "frequency": "Cada 1 hora", "next": "2026-03-09T10:38:00-03:00", "status": "active" },
     { "name": "Weekly Competitive Intel", "id": "4dd03de0", "frequency": "Lunes 10:00", "next": "2026-03-09T10:00:00-03:00", "status": "active" },
     { "name": "Recordatorio ML Ads", "id": "84df2461", "frequency": "Diario 10:00", "next": "2026-03-09T10:00:00-03:00", "status": "active" },
+    { "name": "Token Usage Report", "id": "cd8ba5da", "frequency": "Cada 2 horas", "next": "2026-03-09T10:54:00-03:00", "status": "active" },
     { "name": "Daily Standup", "id": "648321fb", "frequency": "Lun-Sáb 12:00", "next": "2026-03-09T12:00:00-03:00", "status": "active" },
     { "name": "Recordatorio reunión (noche anterior)", "id": "587c8f61", "frequency": "Una vez — Mar 10/3 22:00", "next": "2026-03-11T01:00:00-03:00", "status": "pending" },
     { "name": "Weekly Product Hunting", "id": "60c29650", "frequency": "Miércoles 10:00", "next": "2026-03-11T10:00:00-03:00", "status": "active" },
