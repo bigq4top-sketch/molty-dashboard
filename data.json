@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-03-09T02:38:00-03:00",
+  "lastUpdated": "2026-03-09T03:38:00-03:00",
   "agents": [
     {
       "id": "hunter",
@@ -86,18 +86,20 @@
       "status": "active",
       "channel": "#general / todos",
       "lastTask": "Dashboard update automático (cron)",
-      "lastActivity": "2026-03-09T02:38:00-03:00",
-      "weeklyTasks": { "completed": 93, "total": 94 }
+      "lastActivity": "2026-03-09T03:38:00-03:00",
+      "weeklyTasks": { "completed": 94, "total": 95 }
     }
   ],
   "metrics": {
-    "tasksToday": 3,
-    "tokensToday": 144000,
+    "tasksToday": 4,
+    "tokensToday": 178000,
     "reportsThisWeek": 23,
     "cronJobsActive": 10,
-    "tokenSparkline": [0, 0, 248500, 670000, 820000, 880000, 144000]
+    "tokenSparkline": [0, 0, 248500, 670000, 820000, 880000, 178000]
   },
   "timeline": [
+    { "agent": "MOLTY", "emoji": "🦾", "action": "dashboard update automático (cron)", "time": "03:38" },
+    { "agent": "MOLTY", "emoji": "🦾", "action": "token usage report (cron)", "time": "02:54" },
     { "agent": "MOLTY", "emoji": "🦾", "action": "dashboard update automático (cron)", "time": "02:38" },
     { "agent": "MOLTY", "emoji": "🦾", "action": "dashboard update automático (cron)", "time": "01:38" },
     { "agent": "MOLTY", "emoji": "🦾", "action": "dashboard update automático (cron)", "time": "00:38" },
@@ -133,11 +135,11 @@
     { "date": "2026-03-06", "tokens": 670000 },
     { "date": "2026-03-07", "tokens": 820000 },
     { "date": "2026-03-08", "tokens": 880000 },
-    { "date": "2026-03-09", "tokens": 144000 }
+    { "date": "2026-03-09", "tokens": 178000 }
   ],
   "cronJobs": [
-    { "name": "Dashboard Update", "id": "9265dc02", "frequency": "Cada 1 hora", "next": "2026-03-09T03:38:00-03:00", "status": "active" },
-    { "name": "Token Usage Report", "id": "cd8ba5da", "frequency": "Cada 2 horas", "next": "2026-03-09T02:54:00-03:00", "status": "active" },
+    { "name": "Dashboard Update", "id": "9265dc02", "frequency": "Cada 1 hora", "next": "2026-03-09T04:38:00-03:00", "status": "active" },
+    { "name": "Token Usage Report", "id": "cd8ba5da", "frequency": "Cada 2 horas", "next": "2026-03-09T04:54:00-03:00", "status": "active" },
     { "name": "Weekly Competitive Intel", "id": "4dd03de0", "frequency": "Lunes 10:00", "next": "2026-03-09T10:00:00-03:00", "status": "active" },
     { "name": "Recordatorio ML Ads", "id": "84df2461", "frequency": "Diario 10:00", "next": "2026-03-09T10:00:00-03:00", "status": "active" },
     { "name": "Daily Standup", "id": "648321fb", "frequency": "Lun-Sáb 12:00", "next": "2026-03-09T12:00:00-03:00", "status": "active" },
