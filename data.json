@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-03-09T10:38:00-03:00",
+  "lastUpdated": "2026-03-09T11:38:00-03:00",
   "agents": [
     {
       "id": "hunter",
@@ -85,22 +85,23 @@
       "role": "Director IA — Coordinación general",
       "status": "active",
       "channel": "#general / todos",
-      "lastTask": "Dashboard update + cron management (Weekly Intel, ML Ads reminder, Token Report)",
-      "lastActivity": "2026-03-09T10:38:00-03:00",
-      "weeklyTasks": { "completed": 112, "total": 112 }
+      "lastTask": "Dashboard update + cron management + ML token auth",
+      "lastActivity": "2026-03-09T11:38:00-03:00",
+      "weeklyTasks": { "completed": 114, "total": 114 }
     }
   ],
   "metrics": {
-    "tasksToday": 4,
-    "tokensToday": 520000,
+    "tasksToday": 5,
+    "tokensToday": 540000,
     "reportsThisWeek": 24,
-    "cronJobsActive": 10,
-    "tokenSparkline": [0, 0, 248500, 670000, 820000, 880000, 520000]
+    "cronJobsActive": 11,
+    "tokenSparkline": [0, 0, 248500, 670000, 820000, 880000, 540000]
   },
   "timeline": [
-    { "agent": "MOLTY", "emoji": "🦾", "action": "dashboard update automático (cron)", "time": "10:38" },
+    { "agent": "MOLTY", "emoji": "🦾", "action": "dashboard update automático (cron)", "time": "11:38" },
     { "agent": "MOLTY", "emoji": "🦾", "action": "recordatorio ML Ads (cron)", "time": "10:01" },
     { "agent": "MOLTY", "emoji": "🦾", "action": "weekly competitive intel (cron) — ejecutado", "time": "09:59" },
+    { "agent": "MOLTY", "emoji": "🦾", "action": "dashboard update automático (cron)", "time": "10:38" },
     { "agent": "MOLTY", "emoji": "🦾", "action": "dashboard update automático (cron)", "time": "09:38" },
     { "agent": "MOLTY", "emoji": "🦾", "action": "token usage report (cron)", "time": "08:54" },
     { "agent": "MOLTY", "emoji": "🦾", "action": "dashboard update automático (cron)", "time": "08:38" },
@@ -125,12 +126,13 @@
     { "date": "2026-03-06", "tokens": 670000 },
     { "date": "2026-03-07", "tokens": 820000 },
     { "date": "2026-03-08", "tokens": 880000 },
-    { "date": "2026-03-09", "tokens": 520000 }
+    { "date": "2026-03-09", "tokens": 540000 }
   ],
   "cronJobs": [
-    { "name": "Dashboard Update", "id": "9265dc02", "frequency": "Cada 1 hora", "next": "2026-03-09T11:38:00-03:00", "status": "active" },
-    { "name": "Token Usage Report", "id": "cd8ba5da", "frequency": "Cada 2 horas", "next": "2026-03-09T10:54:00-03:00", "status": "active" },
+    { "name": "Dashboard Update", "id": "9265dc02", "frequency": "Cada 1 hora", "next": "2026-03-09T12:38:00-03:00", "status": "active" },
+    { "name": "Token Usage Report", "id": "cd8ba5da", "frequency": "Cada 2 horas", "next": "2026-03-09T12:54:00-03:00", "status": "active" },
     { "name": "Daily Standup", "id": "648321fb", "frequency": "Lun-Sáb 12:00", "next": "2026-03-09T12:00:00-03:00", "status": "active" },
+    { "name": "ML Data Pull", "id": "0a111e51", "frequency": "Cada 4 horas", "next": "2026-03-09T14:38:00-03:00", "status": "active" },
     { "name": "Recordatorio ML Ads", "id": "84df2461", "frequency": "Diario 10:00", "next": "2026-03-10T10:00:00-03:00", "status": "active" },
     { "name": "Weekly Competitive Intel", "id": "4dd03de0", "frequency": "Lunes 10:00", "next": "2026-03-16T10:00:00-03:00", "status": "active" },
     { "name": "Weekly Product Hunting", "id": "60c29650", "frequency": "Miércoles 10:00", "next": "2026-03-11T10:00:00-03:00", "status": "active" },
