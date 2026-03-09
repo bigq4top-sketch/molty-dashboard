@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-03-09T05:38:00-03:00",
+  "lastUpdated": "2026-03-09T06:38:00-03:00",
   "agents": [
     {
       "id": "hunter",
@@ -86,18 +86,19 @@
       "status": "active",
       "channel": "#general / todos",
       "lastTask": "Dashboard update automático (cron)",
-      "lastActivity": "2026-03-09T05:38:00-03:00",
-      "weeklyTasks": { "completed": 96, "total": 97 }
+      "lastActivity": "2026-03-09T06:38:00-03:00",
+      "weeklyTasks": { "completed": 97, "total": 98 }
     }
   ],
   "metrics": {
-    "tasksToday": 6,
-    "tokensToday": 225000,
+    "tasksToday": 7,
+    "tokensToday": 375000,
     "reportsThisWeek": 23,
     "cronJobsActive": 10,
-    "tokenSparkline": [0, 0, 248500, 670000, 820000, 880000, 225000]
+    "tokenSparkline": [0, 0, 248500, 670000, 820000, 880000, 375000]
   },
   "timeline": [
+    { "agent": "MOLTY", "emoji": "🦾", "action": "dashboard update automático (cron)", "time": "06:38" },
     { "agent": "MOLTY", "emoji": "🦾", "action": "dashboard update automático (cron)", "time": "05:38" },
     { "agent": "MOLTY", "emoji": "🦾", "action": "dashboard update automático (cron)", "time": "04:38" },
     { "agent": "MOLTY", "emoji": "🦾", "action": "dashboard update automático (cron)", "time": "03:38" },
@@ -126,8 +127,7 @@
     { "agent": "SHADOW", "emoji": "🕵️", "action": "lanzado: análisis competitivo ML + ecommerce AR para nuevos productos", "time": "10:00" },
     { "agent": "MOLTY", "emoji": "🦾", "action": "dashboard update automático (cron)", "time": "09:38" },
     { "agent": "HUNTER", "emoji": "🔬", "action": "completado: Top 8 productos, Top 3 recomendados (Berberina, Ashwagandha, L-Carnitina)", "time": "08:29" },
-    { "agent": "HUNTER", "emoji": "🔬", "action": "lanzado: búsqueda productos ganadores nuevos (suplementos tendencia 2025-2026)", "time": "08:27" },
-    { "agent": "MOLTY", "emoji": "🦾", "action": "dashboard update automático (cron)", "time": "08:38" }
+    { "agent": "HUNTER", "emoji": "🔬", "action": "lanzado: búsqueda productos ganadores nuevos (suplementos tendencia 2025-2026)", "time": "08:27" }
   ],
   "tokenHistory": [
     { "date": "2026-03-03", "tokens": 0 },
@@ -136,10 +136,10 @@
     { "date": "2026-03-06", "tokens": 670000 },
     { "date": "2026-03-07", "tokens": 820000 },
     { "date": "2026-03-08", "tokens": 880000 },
-    { "date": "2026-03-09", "tokens": 225000 }
+    { "date": "2026-03-09", "tokens": 375000 }
   ],
   "cronJobs": [
-    { "name": "Dashboard Update", "id": "9265dc02", "frequency": "Cada 1 hora", "next": "2026-03-09T06:38:00-03:00", "status": "active" },
+    { "name": "Dashboard Update", "id": "9265dc02", "frequency": "Cada 1 hora", "next": "2026-03-09T07:38:00-03:00", "status": "active" },
     { "name": "Token Usage Report", "id": "cd8ba5da", "frequency": "Cada 2 horas", "next": "2026-03-09T06:54:00-03:00", "status": "active" },
     { "name": "Weekly Competitive Intel", "id": "4dd03de0", "frequency": "Lunes 10:00", "next": "2026-03-09T10:00:00-03:00", "status": "active" },
     { "name": "Recordatorio ML Ads", "id": "84df2461", "frequency": "Diario 10:00", "next": "2026-03-09T10:00:00-03:00", "status": "active" },
