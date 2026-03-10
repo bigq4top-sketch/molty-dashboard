@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-03-10T14:12:00-03:00",
+  "lastUpdated": "2026-03-10T15:12:00-03:00",
   "agents": [
     {
       "id": "hunter",
@@ -86,18 +86,19 @@
       "status": "active",
       "channel": "#general / todos",
       "lastTask": "Dashboard update + daily standup + token report + ML data pull + recordatorio ML Ads — 11 cron jobs activos",
-      "lastActivity": "2026-03-10T14:12:00-03:00",
-      "weeklyTasks": { "completed": 176, "total": 176 }
+      "lastActivity": "2026-03-10T15:12:00-03:00",
+      "weeklyTasks": { "completed": 178, "total": 178 }
     }
   ],
   "metrics": {
-    "tasksToday": 17,
-    "tokensToday": 305000,
-    "reportsThisWeek": 49,
+    "tasksToday": 18,
+    "tokensToday": 310000,
+    "reportsThisWeek": 50,
     "cronJobsActive": 11,
-    "tokenSparkline": [0, 248500, 670000, 820000, 880000, 870000, 305000]
+    "tokenSparkline": [0, 248500, 670000, 820000, 880000, 870000, 310000]
   },
   "timeline": [
+    { "agent": "MOLTY", "emoji": "🦾", "action": "dashboard update automático (cron)", "time": "15:12" },
     { "agent": "MOLTY", "emoji": "🦾", "action": "dashboard update automático (cron)", "time": "14:12" },
     { "agent": "MOLTY", "emoji": "🦾", "action": "dashboard update automático (cron)", "time": "13:12" },
     { "agent": "NOVA", "emoji": "🎯", "action": "ads strategy actualizada: Meta AR CPM $3.80, CPC $0.38. R1: $400 Meta + $200 ML. UGC 15-30s.", "time": "12:15" },
@@ -130,10 +131,10 @@
     { "date": "2026-03-07", "tokens": 820000 },
     { "date": "2026-03-08", "tokens": 880000 },
     { "date": "2026-03-09", "tokens": 870000 },
-    { "date": "2026-03-10", "tokens": 305000 }
+    { "date": "2026-03-10", "tokens": 310000 }
   ],
   "cronJobs": [
-    { "name": "Dashboard Update", "id": "9265dc02", "frequency": "Cada 1 hora", "next": "2026-03-10T15:12:00-03:00", "status": "active" },
+    { "name": "Dashboard Update", "id": "9265dc02", "frequency": "Cada 1 hora", "next": "2026-03-10T16:12:00-03:00", "status": "active" },
     { "name": "Token Usage Report", "id": "cd8ba5da", "frequency": "Cada 2 horas", "next": "2026-03-10T15:54:00-03:00", "status": "active" },
     { "name": "Daily Standup", "id": "648321fb", "frequency": "Lun-Sáb 12:00", "next": "2026-03-11T12:00:00-03:00", "status": "active" },
     { "name": "ML Data Pull", "id": "0a111e51", "frequency": "Cada 4 horas", "next": "2026-03-10T15:26:00-03:00", "status": "active" },
