@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-03-10T12:12:00-03:00",
+  "lastUpdated": "2026-03-10T13:12:00-03:00",
   "agents": [
     {
       "id": "hunter",
@@ -8,9 +8,9 @@
       "role": "Product Research Lead",
       "status": "active",
       "channel": "#research-productos",
-      "lastTask": "Buscando 3-5 productos nuevos en gotas no investigados antes",
-      "lastActivity": "2026-03-10T11:41:00-03:00",
-      "weeklyTasks": { "completed": 6, "total": 6 }
+      "lastTask": "5 productos nuevos: Calostro Bovino gotas (⭐⭐⭐⭐⭐ CERO competencia, tendencia +3000%), Shilajit, L-Teanina, Musgo Marino, Eriomin. Top 3: Calostro > L-Teanina > Eriomin.",
+      "lastActivity": "2026-03-10T11:44:00-03:00",
+      "weeklyTasks": { "completed": 7, "total": 7 }
     },
     {
       "id": "shadow",
@@ -19,9 +19,9 @@
       "role": "Competitive Intelligence",
       "status": "idle",
       "channel": "#intel-competitiva",
-      "lastTask": "Monitoreo competitivo: sin alertas críticas. Datta Verde y Natier no se movieron a gotas. Blue ocean confirmado.",
+      "lastTask": "Monitoreo competitivo: blue ocean confirmado. Datta Verde y Natier sin gotas. Vitawellness expandiendo cúrcuma gotas. Seronite nuevo en 5-HTP.",
       "lastActivity": "2026-03-10T10:45:00-03:00",
-      "weeklyTasks": { "completed": 6, "total": 6 }
+      "weeklyTasks": { "completed": 7, "total": 7 }
     },
     {
       "id": "blade",
@@ -39,11 +39,11 @@
       "name": "NOVA",
       "emoji": "🎯",
       "role": "Media Buyer Lead",
-      "status": "idle",
+      "status": "active",
       "channel": "#media-buying",
-      "lastTask": "Estrategia Ads Ronda 1: $600 ($450 Meta + $150 ML) — PPU + CoQ10 + Glutatión. CPC AR $0.07-0.15. Proyección: 80-180 ventas",
-      "lastActivity": "2026-03-09T10:00:00-03:00",
-      "weeklyTasks": { "completed": 4, "total": 4 }
+      "lastTask": "Ads strategy actualizada: Meta Ads AR ultra barato (CPM $3.80, CPC $0.38). Distribución R1: $400 Meta + $200 ML. UGC 15-30s domina. 1 CTA = +266% conversión.",
+      "lastActivity": "2026-03-10T12:15:00-03:00",
+      "weeklyTasks": { "completed": 5, "total": 5 }
     },
     {
       "id": "forge",
@@ -72,11 +72,11 @@
       "name": "ORBIT",
       "emoji": "🔍",
       "role": "SEO Specialist",
-      "status": "idle",
+      "status": "active",
       "channel": "#seo-strategy",
       "lastTask": "Keyword research: glicinato de magnesio en gotas = gap enorme. Longevidad = mega-tendencia 2026 AR. Vitawellness expandiendo cúrcuma gotas. Seronite nuevo en 5-HTP.",
       "lastActivity": "2026-03-10T11:15:00-03:00",
-      "weeklyTasks": { "completed": 6, "total": 6 }
+      "weeklyTasks": { "completed": 7, "total": 7 }
     },
     {
       "id": "molty",
@@ -85,24 +85,25 @@
       "role": "Director IA — Coordinación general",
       "status": "active",
       "channel": "#general / todos",
-      "lastTask": "Dashboard update automático (cron) + daily standup + token report + ML data pull + recordatorio ML Ads",
-      "lastActivity": "2026-03-10T12:12:00-03:00",
-      "weeklyTasks": { "completed": 170, "total": 170 }
+      "lastTask": "Dashboard update + daily standup + token report + ML data pull + recordatorio ML Ads — 11 cron jobs activos",
+      "lastActivity": "2026-03-10T13:12:00-03:00",
+      "weeklyTasks": { "completed": 175, "total": 175 }
     }
   ],
   "metrics": {
-    "tasksToday": 12,
-    "tokensToday": 260000,
-    "reportsThisWeek": 45,
+    "tasksToday": 16,
+    "tokensToday": 270000,
+    "reportsThisWeek": 48,
     "cronJobsActive": 11,
-    "tokenSparkline": [0, 248500, 670000, 820000, 880000, 870000, 260000]
+    "tokenSparkline": [0, 248500, 670000, 820000, 880000, 870000, 270000]
   },
   "timeline": [
-    { "agent": "MOLTY", "emoji": "🦾", "action": "dashboard update automático (cron)", "time": "12:12" },
+    { "agent": "MOLTY", "emoji": "🦾", "action": "dashboard update automático (cron)", "time": "13:12" },
+    { "agent": "NOVA", "emoji": "🎯", "action": "ads strategy actualizada: Meta AR CPM $3.80, CPC $0.38. R1: $400 Meta + $200 ML. UGC 15-30s.", "time": "12:15" },
     { "agent": "MOLTY", "emoji": "🦾", "action": "daily standup publicado en #daily-standup", "time": "12:00" },
-    { "agent": "HUNTER", "emoji": "🔬", "action": "buscando 3-5 productos nuevos en gotas no investigados", "time": "11:41" },
+    { "agent": "HUNTER", "emoji": "🔬", "action": "5 productos nuevos: Calostro Bovino gotas (CERO competencia, +3000%), Shilajit, L-Teanina, Musgo Marino, Eriomin", "time": "11:44" },
     { "agent": "ORBIT", "emoji": "🔍", "action": "keyword research: glicinato magnesio gotas = gap enorme, longevidad mega-tendencia 2026", "time": "11:15" },
-    { "agent": "SHADOW", "emoji": "🕵️", "action": "monitoreo competitivo: blue ocean confirmado, Datta Verde y Natier no se movieron a gotas", "time": "10:45" },
+    { "agent": "SHADOW", "emoji": "🕵️", "action": "monitoreo competitivo: blue ocean confirmado, Vitawellness expandiendo cúrcuma gotas, Seronite nuevo 5-HTP", "time": "10:45" },
     { "agent": "MOLTY", "emoji": "🦾", "action": "recordatorio ML Ads (cron)", "time": "10:01" },
     { "agent": "MOLTY", "emoji": "🦾", "action": "dashboard update automático (cron)", "time": "2026-03-10 09:11" },
     { "agent": "MOLTY", "emoji": "🦾", "action": "dashboard update automático (cron)", "time": "2026-03-10 08:11" },
@@ -128,10 +129,10 @@
     { "date": "2026-03-07", "tokens": 820000 },
     { "date": "2026-03-08", "tokens": 880000 },
     { "date": "2026-03-09", "tokens": 870000 },
-    { "date": "2026-03-10", "tokens": 260000 }
+    { "date": "2026-03-10", "tokens": 270000 }
   ],
   "cronJobs": [
-    { "name": "Dashboard Update", "id": "9265dc02", "frequency": "Cada 1 hora", "next": "2026-03-10T13:12:00-03:00", "status": "active" },
+    { "name": "Dashboard Update", "id": "9265dc02", "frequency": "Cada 1 hora", "next": "2026-03-10T14:12:00-03:00", "status": "active" },
     { "name": "Token Usage Report", "id": "cd8ba5da", "frequency": "Cada 2 horas", "next": "2026-03-10T13:54:00-03:00", "status": "active" },
     { "name": "Daily Standup", "id": "648321fb", "frequency": "Lun-Sáb 12:00", "next": "2026-03-11T12:00:00-03:00", "status": "active" },
     { "name": "ML Data Pull", "id": "0a111e51", "frequency": "Cada 4 horas", "next": "2026-03-10T15:26:00-03:00", "status": "active" },
