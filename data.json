@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-03-09T22:38:00-03:00",
+  "lastUpdated": "2026-03-09T23:38:00-03:00",
   "agents": [
     {
       "id": "hunter",
@@ -86,8 +86,8 @@
       "status": "active",
       "channel": "#general / todos",
       "lastTask": "Dashboard update automático (cron) + daily standup + token report + ML data pull + team management doc para Pochi",
-      "lastActivity": "2026-03-09T22:38:00-03:00",
-      "weeklyTasks": { "completed": 140, "total": 140 }
+      "lastActivity": "2026-03-09T23:38:00-03:00",
+      "weeklyTasks": { "completed": 142, "total": 142 }
     }
   ],
   "metrics": {
@@ -98,6 +98,7 @@
     "tokenSparkline": [0, 0, 248500, 670000, 820000, 880000, 870000]
   },
   "timeline": [
+    { "agent": "MOLTY", "emoji": "🦾", "action": "dashboard update automático (cron)", "time": "23:38" },
     { "agent": "MOLTY", "emoji": "🦾", "action": "dashboard update automático (cron)", "time": "22:38" },
     { "agent": "MOLTY", "emoji": "🦾", "action": "dashboard update automático (cron)", "time": "21:38" },
     { "agent": "MOLTY", "emoji": "🦾", "action": "dashboard update automático (cron)", "time": "20:38" },
@@ -137,7 +138,7 @@
     { "date": "2026-03-09", "tokens": 870000 }
   ],
   "cronJobs": [
-    { "name": "Dashboard Update", "id": "9265dc02", "frequency": "Cada 1 hora", "next": "2026-03-09T23:38:00-03:00", "status": "active" },
+    { "name": "Dashboard Update", "id": "9265dc02", "frequency": "Cada 1 hora", "next": "2026-03-10T00:38:00-03:00", "status": "active" },
     { "name": "Token Usage Report", "id": "cd8ba5da", "frequency": "Cada 2 horas", "next": "2026-03-10T00:54:00-03:00", "status": "active" },
     { "name": "Daily Standup", "id": "648321fb", "frequency": "Lun-Sáb 12:00", "next": "2026-03-10T12:00:00-03:00", "status": "active" },
     { "name": "ML Data Pull", "id": "0a111e51", "frequency": "Cada 4 horas", "next": "2026-03-10T01:25:00-03:00", "status": "active" },
