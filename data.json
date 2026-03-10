@@ -1,16 +1,16 @@
 {
-  "lastUpdated": "2026-03-10T11:12:00-03:00",
+  "lastUpdated": "2026-03-10T12:12:00-03:00",
   "agents": [
     {
       "id": "hunter",
       "name": "HUNTER",
       "emoji": "🔬",
       "role": "Product Research Lead",
-      "status": "idle",
+      "status": "active",
       "channel": "#research-productos",
-      "lastTask": "5 productos nuevos: CoQ10, Glutatión Liposomal, 5-HTP, Zinc+VitC, Cúrcuma+Pimienta — todos en gotas, cero competencia",
-      "lastActivity": "2026-03-09T10:00:00-03:00",
-      "weeklyTasks": { "completed": 5, "total": 5 }
+      "lastTask": "Buscando 3-5 productos nuevos en gotas no investigados antes",
+      "lastActivity": "2026-03-10T11:41:00-03:00",
+      "weeklyTasks": { "completed": 6, "total": 6 }
     },
     {
       "id": "shadow",
@@ -19,9 +19,9 @@
       "role": "Competitive Intelligence",
       "status": "idle",
       "channel": "#intel-competitiva",
-      "lastTask": "Competencia actualizada: CoQ10/Glutatión/5-HTP gotas = cero competencia. Monitorear Datta Verde (292 productos) y Natier",
-      "lastActivity": "2026-03-09T10:00:00-03:00",
-      "weeklyTasks": { "completed": 5, "total": 5 }
+      "lastTask": "Monitoreo competitivo: sin alertas críticas. Datta Verde y Natier no se movieron a gotas. Blue ocean confirmado.",
+      "lastActivity": "2026-03-10T10:45:00-03:00",
+      "weeklyTasks": { "completed": 6, "total": 6 }
     },
     {
       "id": "blade",
@@ -74,9 +74,9 @@
       "role": "SEO Specialist",
       "status": "idle",
       "channel": "#seo-strategy",
-      "lastTask": "Ranking SEO 8 productos: Cúrcuma+Pimienta #1 (altísimo vol), formato gotas = moat SEO más grande. Quick wins: landing 'Suplementos en gotas Argentina'",
-      "lastActivity": "2026-03-09T10:00:00-03:00",
-      "weeklyTasks": { "completed": 5, "total": 5 }
+      "lastTask": "Keyword research: glicinato de magnesio en gotas = gap enorme. Longevidad = mega-tendencia 2026 AR. Vitawellness expandiendo cúrcuma gotas. Seronite nuevo en 5-HTP.",
+      "lastActivity": "2026-03-10T11:15:00-03:00",
+      "weeklyTasks": { "completed": 6, "total": 6 }
     },
     {
       "id": "molty",
@@ -86,19 +86,23 @@
       "status": "active",
       "channel": "#general / todos",
       "lastTask": "Dashboard update automático (cron) + daily standup + token report + ML data pull + recordatorio ML Ads",
-      "lastActivity": "2026-03-10T11:12:00-03:00",
-      "weeklyTasks": { "completed": 160, "total": 160 }
+      "lastActivity": "2026-03-10T12:12:00-03:00",
+      "weeklyTasks": { "completed": 170, "total": 170 }
     }
   ],
   "metrics": {
-    "tasksToday": 9,
-    "tokensToday": 225000,
-    "reportsThisWeek": 41,
+    "tasksToday": 12,
+    "tokensToday": 260000,
+    "reportsThisWeek": 45,
     "cronJobsActive": 11,
-    "tokenSparkline": [0, 248500, 670000, 820000, 880000, 870000, 225000]
+    "tokenSparkline": [0, 248500, 670000, 820000, 880000, 870000, 260000]
   },
   "timeline": [
-    { "agent": "MOLTY", "emoji": "🦾", "action": "dashboard update automático (cron)", "time": "11:12" },
+    { "agent": "MOLTY", "emoji": "🦾", "action": "dashboard update automático (cron)", "time": "12:12" },
+    { "agent": "MOLTY", "emoji": "🦾", "action": "daily standup publicado en #daily-standup", "time": "12:00" },
+    { "agent": "HUNTER", "emoji": "🔬", "action": "buscando 3-5 productos nuevos en gotas no investigados", "time": "11:41" },
+    { "agent": "ORBIT", "emoji": "🔍", "action": "keyword research: glicinato magnesio gotas = gap enorme, longevidad mega-tendencia 2026", "time": "11:15" },
+    { "agent": "SHADOW", "emoji": "🕵️", "action": "monitoreo competitivo: blue ocean confirmado, Datta Verde y Natier no se movieron a gotas", "time": "10:45" },
     { "agent": "MOLTY", "emoji": "🦾", "action": "recordatorio ML Ads (cron)", "time": "10:01" },
     { "agent": "MOLTY", "emoji": "🦾", "action": "dashboard update automático (cron)", "time": "2026-03-10 09:11" },
     { "agent": "MOLTY", "emoji": "🦾", "action": "dashboard update automático (cron)", "time": "2026-03-10 08:11" },
@@ -112,13 +116,6 @@
     { "agent": "MOLTY", "emoji": "🦾", "action": "dashboard update automático (cron)", "time": "2026-03-10 01:38" },
     { "agent": "MOLTY", "emoji": "🦾", "action": "dashboard update automático (cron)", "time": "2026-03-10 00:38" },
     { "agent": "MOLTY", "emoji": "🦾", "action": "dashboard update automático (cron)", "time": "2026-03-09 23:38" },
-    { "agent": "MOLTY", "emoji": "🦾", "action": "ML data pull (cron)", "time": "2026-03-09 18:45" },
-    { "agent": "MOLTY", "emoji": "🦾", "action": "dashboard update automático (cron)", "time": "2026-03-09 18:38" },
-    { "agent": "MOLTY", "emoji": "🦾", "action": "token usage report (cron)", "time": "2026-03-09 14:54" },
-    { "agent": "MOLTY", "emoji": "🦾", "action": "ML data pull (cron)", "time": "2026-03-09 14:44" },
-    { "agent": "MOLTY", "emoji": "🦾", "action": "daily standup publicado en #ceo-general", "time": "2026-03-09 12:00" },
-    { "agent": "MOLTY", "emoji": "🦾", "action": "recordatorio ML Ads (cron)", "time": "2026-03-09 10:01" },
-    { "agent": "MOLTY", "emoji": "🦾", "action": "weekly competitive intel (cron) — ejecutado", "time": "2026-03-09 09:59" },
     { "agent": "NOVA", "emoji": "🎯", "action": "estrategia Ads Ronda 1: $600 → $450 Meta + $150 ML, proyección 80-180 ventas", "time": "2026-03-09 10:00" },
     { "agent": "ORBIT", "emoji": "🔍", "action": "ranking SEO 8 productos — Cúrcuma+Pimienta #1, formato gotas = moat SEO", "time": "2026-03-09 10:00" },
     { "agent": "SHADOW", "emoji": "🕵️", "action": "competencia actualizada: CoQ10/Glutatión/5-HTP gotas cero competencia", "time": "2026-03-09 10:00" },
@@ -131,12 +128,12 @@
     { "date": "2026-03-07", "tokens": 820000 },
     { "date": "2026-03-08", "tokens": 880000 },
     { "date": "2026-03-09", "tokens": 870000 },
-    { "date": "2026-03-10", "tokens": 225000 }
+    { "date": "2026-03-10", "tokens": 260000 }
   ],
   "cronJobs": [
-    { "name": "Dashboard Update", "id": "9265dc02", "frequency": "Cada 1 hora", "next": "2026-03-10T12:12:00-03:00", "status": "active" },
+    { "name": "Dashboard Update", "id": "9265dc02", "frequency": "Cada 1 hora", "next": "2026-03-10T13:12:00-03:00", "status": "active" },
     { "name": "Token Usage Report", "id": "cd8ba5da", "frequency": "Cada 2 horas", "next": "2026-03-10T13:54:00-03:00", "status": "active" },
-    { "name": "Daily Standup", "id": "648321fb", "frequency": "Lun-Sáb 12:00", "next": "2026-03-10T12:00:00-03:00", "status": "active" },
+    { "name": "Daily Standup", "id": "648321fb", "frequency": "Lun-Sáb 12:00", "next": "2026-03-11T12:00:00-03:00", "status": "active" },
     { "name": "ML Data Pull", "id": "0a111e51", "frequency": "Cada 4 horas", "next": "2026-03-10T15:26:00-03:00", "status": "active" },
     { "name": "Recordatorio ML Ads", "id": "84df2461", "frequency": "Diario 10:00", "next": "2026-03-11T10:00:00-03:00", "status": "active" },
     { "name": "Weekly Competitive Intel", "id": "4dd03de0", "frequency": "Lunes 10:00", "next": "2026-03-16T10:00:00-03:00", "status": "active" },
