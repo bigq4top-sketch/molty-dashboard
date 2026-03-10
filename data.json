@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-03-09T23:38:00-03:00",
+  "lastUpdated": "2026-03-10T00:38:00-03:00",
   "agents": [
     {
       "id": "hunter",
@@ -86,42 +86,35 @@
       "status": "active",
       "channel": "#general / todos",
       "lastTask": "Dashboard update automático (cron) + daily standup + token report + ML data pull + team management doc para Pochi",
-      "lastActivity": "2026-03-09T23:38:00-03:00",
-      "weeklyTasks": { "completed": 142, "total": 142 }
+      "lastActivity": "2026-03-10T00:38:00-03:00",
+      "weeklyTasks": { "completed": 143, "total": 143 }
     }
   ],
   "metrics": {
-    "tasksToday": 14,
-    "tokensToday": 870000,
+    "tasksToday": 1,
+    "tokensToday": 140000,
     "reportsThisWeek": 34,
     "cronJobsActive": 11,
-    "tokenSparkline": [0, 0, 248500, 670000, 820000, 880000, 870000]
+    "tokenSparkline": [0, 248500, 670000, 820000, 880000, 870000, 140000]
   },
   "timeline": [
-    { "agent": "MOLTY", "emoji": "🦾", "action": "dashboard update automático (cron)", "time": "23:38" },
-    { "agent": "MOLTY", "emoji": "🦾", "action": "dashboard update automático (cron)", "time": "22:38" },
-    { "agent": "MOLTY", "emoji": "🦾", "action": "dashboard update automático (cron)", "time": "21:38" },
-    { "agent": "MOLTY", "emoji": "🦾", "action": "dashboard update automático (cron)", "time": "20:38" },
-    { "agent": "MOLTY", "emoji": "🦾", "action": "dashboard update automático (cron)", "time": "19:38" },
-    { "agent": "MOLTY", "emoji": "🦾", "action": "dashboard update automático (cron)", "time": "18:38" },
-    { "agent": "MOLTY", "emoji": "🦾", "action": "dashboard update automático (cron)", "time": "17:38" },
-    { "agent": "MOLTY", "emoji": "🦾", "action": "dashboard update automático (cron)", "time": "16:38" },
-    { "agent": "MOLTY", "emoji": "🦾", "action": "dashboard update automático (cron)", "time": "15:38" },
-    { "agent": "MOLTY", "emoji": "🦾", "action": "token usage report (cron)", "time": "14:54" },
-    { "agent": "MOLTY", "emoji": "🦾", "action": "ML data pull (cron)", "time": "14:44" },
-    { "agent": "MOLTY", "emoji": "🦾", "action": "dashboard update automático (cron)", "time": "14:38" },
-    { "agent": "MOLTY", "emoji": "🦾", "action": "dashboard update automático (cron)", "time": "13:38" },
-    { "agent": "MOLTY", "emoji": "🦾", "action": "token usage report (cron)", "time": "12:54" },
-    { "agent": "MOLTY", "emoji": "🦾", "action": "dashboard update automático (cron)", "time": "12:38" },
-    { "agent": "MOLTY", "emoji": "🦾", "action": "daily standup publicado en #ceo-general", "time": "12:00" },
-    { "agent": "MOLTY", "emoji": "🦾", "action": "dashboard update automático (cron)", "time": "11:38" },
-    { "agent": "MOLTY", "emoji": "🦾", "action": "recordatorio ML Ads (cron)", "time": "10:01" },
-    { "agent": "MOLTY", "emoji": "🦾", "action": "weekly competitive intel (cron) — ejecutado", "time": "09:59" },
+    { "agent": "MOLTY", "emoji": "🦾", "action": "dashboard update automático (cron)", "time": "00:38" },
+    { "agent": "MOLTY", "emoji": "🦾", "action": "dashboard update automático (cron)", "time": "2026-03-09 23:38" },
+    { "agent": "MOLTY", "emoji": "🦾", "action": "dashboard update automático (cron)", "time": "2026-03-09 22:38" },
+    { "agent": "MOLTY", "emoji": "🦾", "action": "dashboard update automático (cron)", "time": "2026-03-09 21:38" },
+    { "agent": "MOLTY", "emoji": "🦾", "action": "dashboard update automático (cron)", "time": "2026-03-09 20:38" },
+    { "agent": "MOLTY", "emoji": "🦾", "action": "dashboard update automático (cron)", "time": "2026-03-09 19:38" },
+    { "agent": "MOLTY", "emoji": "🦾", "action": "ML data pull (cron)", "time": "2026-03-09 18:45" },
+    { "agent": "MOLTY", "emoji": "🦾", "action": "dashboard update automático (cron)", "time": "2026-03-09 18:38" },
+    { "agent": "MOLTY", "emoji": "🦾", "action": "token usage report (cron)", "time": "2026-03-09 14:54" },
+    { "agent": "MOLTY", "emoji": "🦾", "action": "ML data pull (cron)", "time": "2026-03-09 14:44" },
+    { "agent": "MOLTY", "emoji": "🦾", "action": "daily standup publicado en #ceo-general", "time": "2026-03-09 12:00" },
+    { "agent": "MOLTY", "emoji": "🦾", "action": "recordatorio ML Ads (cron)", "time": "2026-03-09 10:01" },
+    { "agent": "MOLTY", "emoji": "🦾", "action": "weekly competitive intel (cron) — ejecutado", "time": "2026-03-09 09:59" },
     { "agent": "NOVA", "emoji": "🎯", "action": "estrategia Ads Ronda 1: $600 → $450 Meta + $150 ML, proyección 80-180 ventas", "time": "2026-03-09 10:00" },
     { "agent": "ORBIT", "emoji": "🔍", "action": "ranking SEO 8 productos — Cúrcuma+Pimienta #1, formato gotas = moat SEO", "time": "2026-03-09 10:00" },
     { "agent": "SHADOW", "emoji": "🕵️", "action": "competencia actualizada: CoQ10/Glutatión/5-HTP gotas cero competencia", "time": "2026-03-09 10:00" },
     { "agent": "HUNTER", "emoji": "🔬", "action": "5 productos nuevos detectados: CoQ10, Glutatión, 5-HTP, Zinc+VitC, Cúrcuma+Pimienta", "time": "2026-03-09 10:00" },
-    { "agent": "MOLTY", "emoji": "🦾", "action": "token usage report (cron)", "time": "08:54" },
     { "agent": "ORBIT", "emoji": "🔍", "action": "keywords/SEO Berberina, Ashwagandha, L-Carnitina — berberina gotas competencia CERO", "time": "2026-03-08 16:01" },
     { "agent": "SHADOW", "emoji": "🕵️", "action": "intel competitiva Berberina/Ashwagandha/L-Carnitina — Berberina gotas blue ocean", "time": "2026-03-08 12:30" },
     { "agent": "HUNTER", "emoji": "🔬", "action": "Top 8 productos, Top 3 en gotas identificados", "time": "2026-03-08 08:29" },
@@ -129,19 +122,19 @@
     { "agent": "NOVA", "emoji": "🎯", "action": "estrategia Meta Ads Pelo/Piel/Uñas lista — $20/día × 10 días", "time": "2026-03-07 13:10" }
   ],
   "tokenHistory": [
-    { "date": "2026-03-03", "tokens": 0 },
     { "date": "2026-03-04", "tokens": 0 },
     { "date": "2026-03-05", "tokens": 248500 },
     { "date": "2026-03-06", "tokens": 670000 },
     { "date": "2026-03-07", "tokens": 820000 },
     { "date": "2026-03-08", "tokens": 880000 },
-    { "date": "2026-03-09", "tokens": 870000 }
+    { "date": "2026-03-09", "tokens": 870000 },
+    { "date": "2026-03-10", "tokens": 140000 }
   ],
   "cronJobs": [
-    { "name": "Dashboard Update", "id": "9265dc02", "frequency": "Cada 1 hora", "next": "2026-03-10T00:38:00-03:00", "status": "active" },
-    { "name": "Token Usage Report", "id": "cd8ba5da", "frequency": "Cada 2 horas", "next": "2026-03-10T00:54:00-03:00", "status": "active" },
+    { "name": "Dashboard Update", "id": "9265dc02", "frequency": "Cada 1 hora", "next": "2026-03-10T01:38:00-03:00", "status": "active" },
+    { "name": "Token Usage Report", "id": "cd8ba5da", "frequency": "Cada 2 horas", "next": "2026-03-10T02:54:00-03:00", "status": "active" },
     { "name": "Daily Standup", "id": "648321fb", "frequency": "Lun-Sáb 12:00", "next": "2026-03-10T12:00:00-03:00", "status": "active" },
-    { "name": "ML Data Pull", "id": "0a111e51", "frequency": "Cada 4 horas", "next": "2026-03-10T01:25:00-03:00", "status": "active" },
+    { "name": "ML Data Pull", "id": "0a111e51", "frequency": "Cada 4 horas", "next": "2026-03-10T02:25:00-03:00", "status": "active" },
     { "name": "Recordatorio ML Ads", "id": "84df2461", "frequency": "Diario 10:00", "next": "2026-03-10T10:00:00-03:00", "status": "active" },
     { "name": "Weekly Competitive Intel", "id": "4dd03de0", "frequency": "Lunes 10:00", "next": "2026-03-16T10:00:00-03:00", "status": "active" },
     { "name": "Weekly Product Hunting", "id": "60c29650", "frequency": "Miércoles 10:00", "next": "2026-03-11T10:00:00-03:00", "status": "active" },
