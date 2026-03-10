@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-03-10T19:12:00-03:00",
+  "lastUpdated": "2026-03-10T20:12:00-03:00",
   "agents": [
     {
       "id": "hunter",
@@ -86,18 +86,19 @@
       "status": "active",
       "channel": "#general / todos",
       "lastTask": "Dashboard update + daily standup + token report + ML data pull + recordatorio ML Ads — 11 cron jobs activos. Sesión extensa #desarrollo-formulas con Ramon (cremas, colágeno, D3+K2).",
-      "lastActivity": "2026-03-10T19:12:00-03:00",
-      "weeklyTasks": { "completed": 183, "total": 183 }
+      "lastActivity": "2026-03-10T20:12:00-03:00",
+      "weeklyTasks": { "completed": 184, "total": 184 }
     }
   ],
   "metrics": {
-    "tasksToday": 23,
-    "tokensToday": 350000,
-    "reportsThisWeek": 54,
+    "tasksToday": 24,
+    "tokensToday": 355000,
+    "reportsThisWeek": 55,
     "cronJobsActive": 11,
-    "tokenSparkline": [0, 248500, 670000, 820000, 880000, 870000, 350000]
+    "tokenSparkline": [0, 248500, 670000, 820000, 880000, 870000, 355000]
   },
   "timeline": [
+    { "agent": "MOLTY", "emoji": "🦾", "action": "dashboard update automático (cron)", "time": "20:12" },
     { "agent": "MOLTY", "emoji": "🦾", "action": "dashboard update automático (cron)", "time": "19:12" },
     { "agent": "MOLTY", "emoji": "🦾", "action": "dashboard update automático (cron)", "time": "18:11" },
     { "agent": "MOLTY", "emoji": "🦾", "action": "dashboard update automático (cron)", "time": "17:12" },
@@ -135,10 +136,10 @@
     { "date": "2026-03-07", "tokens": 820000 },
     { "date": "2026-03-08", "tokens": 880000 },
     { "date": "2026-03-09", "tokens": 870000 },
-    { "date": "2026-03-10", "tokens": 350000 }
+    { "date": "2026-03-10", "tokens": 355000 }
   ],
   "cronJobs": [
-    { "name": "Dashboard Update", "id": "9265dc02", "frequency": "Cada 1 hora", "next": "2026-03-10T20:12:00-03:00", "status": "active" },
+    { "name": "Dashboard Update", "id": "9265dc02", "frequency": "Cada 1 hora", "next": "2026-03-10T21:12:00-03:00", "status": "active" },
     { "name": "Token Usage Report", "id": "cd8ba5da", "frequency": "Cada 2 horas", "next": "2026-03-10T21:54:00-03:00", "status": "active" },
     { "name": "Daily Standup", "id": "648321fb", "frequency": "Lun-Sáb 12:00", "next": "2026-03-11T12:00:00-03:00", "status": "active" },
     { "name": "ML Data Pull", "id": "0a111e51", "frequency": "Cada 4 horas", "next": "2026-03-10T23:26:00-03:00", "status": "active" },
