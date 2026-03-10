@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-03-10T16:12:00-03:00",
+  "lastUpdated": "2026-03-10T17:12:00-03:00",
   "agents": [
     {
       "id": "hunter",
@@ -41,7 +41,7 @@
       "role": "Media Buyer Lead",
       "status": "idle",
       "channel": "#media-buying",
-      "lastTask": "Ads strategy actualizada: Meta Ads AR ultra barato (CPM $3.80, CPC $0.38). Distribución R1: $400 Meta + $200 ML. UGC 15-30s domina. 1 CTA = +266% conversión.",
+      "lastTask": "Ads strategy actualizada: Meta Ads AR ultra barato (CPM $3.80, CPC $0.38). Q1 ventana ideal. UGC 15-30s domina. R1: $400 Meta + $200 ML. 1 CTA = +266% conversión.",
       "lastActivity": "2026-03-10T12:15:00-03:00",
       "weeklyTasks": { "completed": 5, "total": 5 }
     },
@@ -85,19 +85,20 @@
       "role": "Director IA — Coordinación general",
       "status": "active",
       "channel": "#general / todos",
-      "lastTask": "Dashboard update + daily standup + token report + ML data pull + recordatorio ML Ads — 11 cron jobs activos",
-      "lastActivity": "2026-03-10T16:12:00-03:00",
-      "weeklyTasks": { "completed": 179, "total": 179 }
+      "lastTask": "Dashboard update + daily standup + token report + ML data pull + recordatorio ML Ads — 11 cron jobs activos. Sesión extensa #desarrollo-formulas con Ramon (cremas, colágeno, D3+K2).",
+      "lastActivity": "2026-03-10T17:12:00-03:00",
+      "weeklyTasks": { "completed": 181, "total": 181 }
     }
   ],
   "metrics": {
-    "tasksToday": 19,
-    "tokensToday": 320000,
-    "reportsThisWeek": 51,
+    "tasksToday": 21,
+    "tokensToday": 340000,
+    "reportsThisWeek": 53,
     "cronJobsActive": 11,
-    "tokenSparkline": [0, 248500, 670000, 820000, 880000, 870000, 320000]
+    "tokenSparkline": [0, 248500, 670000, 820000, 880000, 870000, 340000]
   },
   "timeline": [
+    { "agent": "MOLTY", "emoji": "🦾", "action": "dashboard update automático (cron)", "time": "17:12" },
     { "agent": "MOLTY", "emoji": "🦾", "action": "dashboard update automático (cron)", "time": "16:12" },
     { "agent": "MOLTY", "emoji": "🦾", "action": "dashboard update automático (cron)", "time": "15:12" },
     { "agent": "MOLTY", "emoji": "🦾", "action": "dashboard update automático (cron)", "time": "14:12" },
@@ -132,10 +133,10 @@
     { "date": "2026-03-07", "tokens": 820000 },
     { "date": "2026-03-08", "tokens": 880000 },
     { "date": "2026-03-09", "tokens": 870000 },
-    { "date": "2026-03-10", "tokens": 320000 }
+    { "date": "2026-03-10", "tokens": 340000 }
   ],
   "cronJobs": [
-    { "name": "Dashboard Update", "id": "9265dc02", "frequency": "Cada 1 hora", "next": "2026-03-10T17:12:00-03:00", "status": "active" },
+    { "name": "Dashboard Update", "id": "9265dc02", "frequency": "Cada 1 hora", "next": "2026-03-10T18:12:00-03:00", "status": "active" },
     { "name": "Token Usage Report", "id": "cd8ba5da", "frequency": "Cada 2 horas", "next": "2026-03-10T17:54:00-03:00", "status": "active" },
     { "name": "Daily Standup", "id": "648321fb", "frequency": "Lun-Sáb 12:00", "next": "2026-03-11T12:00:00-03:00", "status": "active" },
     { "name": "ML Data Pull", "id": "0a111e51", "frequency": "Cada 4 horas", "next": "2026-03-10T19:26:00-03:00", "status": "active" },
