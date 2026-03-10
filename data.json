@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-03-10T15:12:00-03:00",
+  "lastUpdated": "2026-03-10T16:12:00-03:00",
   "agents": [
     {
       "id": "hunter",
@@ -74,7 +74,7 @@
       "role": "SEO Specialist",
       "status": "idle",
       "channel": "#seo-strategy",
-      "lastTask": "Keyword research: glicinato de magnesio en gotas = gap enorme. Longevidad = mega-tendencia 2026 AR. Vitawellness expandiendo cúrcuma gotas. Seronite nuevo en 5-HTP.",
+      "lastTask": "Keyword research: glicinato de magnesio gotas = gap enorme. Longevidad = mega-tendencia 2026 AR. Vitawellness expandiendo cúrcuma gotas. Seronite nuevo en 5-HTP.",
       "lastActivity": "2026-03-10T11:15:00-03:00",
       "weeklyTasks": { "completed": 7, "total": 7 }
     },
@@ -86,18 +86,19 @@
       "status": "active",
       "channel": "#general / todos",
       "lastTask": "Dashboard update + daily standup + token report + ML data pull + recordatorio ML Ads — 11 cron jobs activos",
-      "lastActivity": "2026-03-10T15:12:00-03:00",
-      "weeklyTasks": { "completed": 178, "total": 178 }
+      "lastActivity": "2026-03-10T16:12:00-03:00",
+      "weeklyTasks": { "completed": 179, "total": 179 }
     }
   ],
   "metrics": {
-    "tasksToday": 18,
-    "tokensToday": 310000,
-    "reportsThisWeek": 50,
+    "tasksToday": 19,
+    "tokensToday": 320000,
+    "reportsThisWeek": 51,
     "cronJobsActive": 11,
-    "tokenSparkline": [0, 248500, 670000, 820000, 880000, 870000, 310000]
+    "tokenSparkline": [0, 248500, 670000, 820000, 880000, 870000, 320000]
   },
   "timeline": [
+    { "agent": "MOLTY", "emoji": "🦾", "action": "dashboard update automático (cron)", "time": "16:12" },
     { "agent": "MOLTY", "emoji": "🦾", "action": "dashboard update automático (cron)", "time": "15:12" },
     { "agent": "MOLTY", "emoji": "🦾", "action": "dashboard update automático (cron)", "time": "14:12" },
     { "agent": "MOLTY", "emoji": "🦾", "action": "dashboard update automático (cron)", "time": "13:12" },
@@ -131,13 +132,13 @@
     { "date": "2026-03-07", "tokens": 820000 },
     { "date": "2026-03-08", "tokens": 880000 },
     { "date": "2026-03-09", "tokens": 870000 },
-    { "date": "2026-03-10", "tokens": 310000 }
+    { "date": "2026-03-10", "tokens": 320000 }
   ],
   "cronJobs": [
-    { "name": "Dashboard Update", "id": "9265dc02", "frequency": "Cada 1 hora", "next": "2026-03-10T16:12:00-03:00", "status": "active" },
-    { "name": "Token Usage Report", "id": "cd8ba5da", "frequency": "Cada 2 horas", "next": "2026-03-10T15:54:00-03:00", "status": "active" },
+    { "name": "Dashboard Update", "id": "9265dc02", "frequency": "Cada 1 hora", "next": "2026-03-10T17:12:00-03:00", "status": "active" },
+    { "name": "Token Usage Report", "id": "cd8ba5da", "frequency": "Cada 2 horas", "next": "2026-03-10T17:54:00-03:00", "status": "active" },
     { "name": "Daily Standup", "id": "648321fb", "frequency": "Lun-Sáb 12:00", "next": "2026-03-11T12:00:00-03:00", "status": "active" },
-    { "name": "ML Data Pull", "id": "0a111e51", "frequency": "Cada 4 horas", "next": "2026-03-10T15:26:00-03:00", "status": "active" },
+    { "name": "ML Data Pull", "id": "0a111e51", "frequency": "Cada 4 horas", "next": "2026-03-10T19:26:00-03:00", "status": "active" },
     { "name": "Recordatorio ML Ads", "id": "84df2461", "frequency": "Diario 10:00", "next": "2026-03-11T10:00:00-03:00", "status": "active" },
     { "name": "Weekly Competitive Intel", "id": "4dd03de0", "frequency": "Lunes 10:00", "next": "2026-03-16T10:00:00-03:00", "status": "active" },
     { "name": "Weekly Product Hunting", "id": "60c29650", "frequency": "Miércoles 10:00", "next": "2026-03-11T10:00:00-03:00", "status": "active" },
