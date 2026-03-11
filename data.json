@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-03-11T11:12:00-03:00",
+  "lastUpdated": "2026-03-11T12:12:00-03:00",
   "agents": [
     {
       "id": "hunter",
@@ -85,19 +85,21 @@
       "role": "Director IA — Coordinación general",
       "status": "active",
       "channel": "#general / todos",
-      "lastTask": "Dashboard update automático + 6 cron jobs activos. Recordatorio ML Ads enviado 10:00.",
-      "lastActivity": "2026-03-11T11:12:00-03:00",
-      "weeklyTasks": { "completed": 216, "total": 216 }
+      "lastTask": "Dashboard update automático + 6 cron jobs activos. Daily standup publicado 12:00.",
+      "lastActivity": "2026-03-11T12:12:00-03:00",
+      "weeklyTasks": { "completed": 220, "total": 220 }
     }
   ],
   "metrics": {
-    "tasksToday": 13,
-    "tokensToday": 195000,
-    "reportsThisWeek": 65,
+    "tasksToday": 15,
+    "tokensToday": 200000,
+    "reportsThisWeek": 67,
     "cronJobsActive": 6,
-    "tokenSparkline": [820000, 880000, 870000, 375000, 155000, 190000, 195000]
+    "tokenSparkline": [880000, 870000, 375000, 155000, 190000, 195000, 200000]
   },
   "timeline": [
+    { "agent": "MOLTY", "emoji": "🦾", "action": "dashboard update automático (cron)", "time": "12:12" },
+    { "agent": "MOLTY", "emoji": "🦾", "action": "daily standup publicado en #daily-standup", "time": "12:00" },
     { "agent": "MOLTY", "emoji": "🦾", "action": "dashboard update automático (cron)", "time": "11:12" },
     { "agent": "MOLTY", "emoji": "🦾", "action": "recordatorio ML Ads enviado a Ramon", "time": "10:00" },
     { "agent": "MOLTY", "emoji": "🦾", "action": "dashboard update automático (cron)", "time": "10:12" },
@@ -142,12 +144,12 @@
     { "date": "2026-03-08", "tokens": 880000 },
     { "date": "2026-03-09", "tokens": 870000 },
     { "date": "2026-03-10", "tokens": 375000 },
-    { "date": "2026-03-11", "tokens": 195000 }
+    { "date": "2026-03-11", "tokens": 200000 }
   ],
   "cronJobs": [
-    { "name": "Dashboard Update", "id": "9265dc02", "frequency": "Cada 1 hora", "next": "2026-03-11T12:12:00-03:00", "status": "active" },
+    { "name": "Dashboard Update", "id": "9265dc02", "frequency": "Cada 1 hora", "next": "2026-03-11T13:12:00-03:00", "status": "active" },
     { "name": "ML Data Pull", "id": "0a111e51", "frequency": "Cada 4 horas", "next": "2026-03-11T15:07:00-03:00", "status": "active" },
-    { "name": "Daily Standup", "id": "648321fb", "frequency": "Lun-Sáb 12:00", "next": "2026-03-11T12:00:00-03:00", "status": "active" },
+    { "name": "Daily Standup", "id": "648321fb", "frequency": "Lun-Sáb 12:00", "next": "2026-03-12T12:00:00-03:00", "status": "active" },
     { "name": "Recordatorio ML Ads", "id": "84df2461", "frequency": "Diario 10:00", "next": "2026-03-12T10:00:00-03:00", "status": "active" },
     { "name": "Recordatorio psicofísico (noche anterior)", "id": "6f8e34c3", "frequency": "Una vez — Dom 22/3 22:00", "next": "2026-03-22T22:00:00-03:00", "status": "pending" },
     { "name": "Recordatorio psicofísico (mismo día)", "id": "039998ff", "frequency": "Una vez — Lun 23/3 08:00", "next": "2026-03-23T08:00:00-03:00", "status": "pending" }
