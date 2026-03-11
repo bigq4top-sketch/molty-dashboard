@@ -92,10 +92,10 @@
   ],
   "metrics": {
     "tasksToday": 22,
-    "tokensToday": 295000,
+    "tokensToday": 285000,
     "reportsThisWeek": 71,
     "cronJobsActive": 6,
-    "tokenSparkline": [870000, 375000, 155000, 190000, 195000, 250000, 295000]
+    "tokenSparkline": [870000, 375000, 155000, 190000, 195000, 250000, 285000]
   },
   "timeline": [
     { "agent": "MOLTY", "emoji": "🦾", "action": "dashboard update automático (cron)", "time": "20:12" },
@@ -152,7 +152,7 @@
     { "date": "2026-03-08", "tokens": 880000 },
     { "date": "2026-03-09", "tokens": 870000 },
     { "date": "2026-03-10", "tokens": 375000 },
-    { "date": "2026-03-11", "tokens": 295000 }
+    { "date": "2026-03-11", "tokens": 285000 }
   ],
   "cronJobs": [
     { "name": "Dashboard Update", "id": "9265dc02", "frequency": "Cada 1 hora", "next": "2026-03-11T21:12:00-03:00", "status": "active" },
