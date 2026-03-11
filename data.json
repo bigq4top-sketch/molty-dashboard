@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-03-11T14:12:00-03:00",
+  "lastUpdated": "2026-03-11T15:12:00-03:00",
   "agents": [
     {
       "id": "hunter",
@@ -86,18 +86,19 @@
       "status": "active",
       "channel": "#general / todos",
       "lastTask": "Dashboard update automático + 6 cron jobs activos. Daily standup publicado 12:00.",
-      "lastActivity": "2026-03-11T14:12:00-03:00",
-      "weeklyTasks": { "completed": 222, "total": 222 }
+      "lastActivity": "2026-03-11T15:12:00-03:00",
+      "weeklyTasks": { "completed": 223, "total": 223 }
     }
   ],
   "metrics": {
     "tasksToday": 17,
-    "tokensToday": 215000,
+    "tokensToday": 250000,
     "reportsThisWeek": 69,
     "cronJobsActive": 6,
-    "tokenSparkline": [880000, 870000, 375000, 155000, 190000, 195000, 215000]
+    "tokenSparkline": [880000, 870000, 375000, 155000, 190000, 195000, 250000]
   },
   "timeline": [
+    { "agent": "MOLTY", "emoji": "🦾", "action": "dashboard update automático (cron)", "time": "15:12" },
     { "agent": "MOLTY", "emoji": "🦾", "action": "dashboard update automático (cron)", "time": "14:12" },
     { "agent": "MOLTY", "emoji": "🦾", "action": "dashboard update automático (cron)", "time": "13:12" },
     { "agent": "MOLTY", "emoji": "🦾", "action": "daily standup publicado en #daily-standup", "time": "12:00" },
@@ -146,10 +147,10 @@
     { "date": "2026-03-08", "tokens": 880000 },
     { "date": "2026-03-09", "tokens": 870000 },
     { "date": "2026-03-10", "tokens": 375000 },
-    { "date": "2026-03-11", "tokens": 215000 }
+    { "date": "2026-03-11", "tokens": 250000 }
   ],
   "cronJobs": [
-    { "name": "Dashboard Update", "id": "9265dc02", "frequency": "Cada 1 hora", "next": "2026-03-11T15:12:00-03:00", "status": "active" },
+    { "name": "Dashboard Update", "id": "9265dc02", "frequency": "Cada 1 hora", "next": "2026-03-11T16:12:00-03:00", "status": "active" },
     { "name": "ML Data Pull", "id": "0a111e51", "frequency": "Cada 4 horas", "next": "2026-03-11T15:13:00-03:00", "status": "active" },
     { "name": "Daily Standup", "id": "648321fb", "frequency": "Lun-Sáb 12:00", "next": "2026-03-12T12:00:00-03:00", "status": "active" },
     { "name": "Recordatorio ML Ads", "id": "84df2461", "frequency": "Diario 10:00", "next": "2026-03-12T10:00:00-03:00", "status": "active" },
