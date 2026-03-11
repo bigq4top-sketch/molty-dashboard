@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-03-10T21:12:00-03:00",
+  "lastUpdated": "2026-03-10T22:12:00-03:00",
   "agents": [
     {
       "id": "hunter",
@@ -85,19 +85,20 @@
       "role": "Director IA — Coordinación general",
       "status": "active",
       "channel": "#general / todos",
-      "lastTask": "Dashboard update + daily standup + token report + ML data pull + recordatorio ML Ads — 11 cron jobs activos. Sesión extensa #desarrollo-formulas con Ramon (cremas, colágeno, D3+K2).",
-      "lastActivity": "2026-03-10T21:12:00-03:00",
-      "weeklyTasks": { "completed": 185, "total": 185 }
+      "lastTask": "Dashboard update + daily standup + token report + ML data pull + recordatorio ML Ads — 10 cron jobs activos. Sesión extensa #desarrollo-formulas con Ramon (cremas, colágeno, D3+K2).",
+      "lastActivity": "2026-03-10T22:12:00-03:00",
+      "weeklyTasks": { "completed": 186, "total": 186 }
     }
   ],
   "metrics": {
-    "tasksToday": 25,
-    "tokensToday": 365000,
+    "tasksToday": 26,
+    "tokensToday": 370000,
     "reportsThisWeek": 56,
-    "cronJobsActive": 11,
-    "tokenSparkline": [0, 248500, 670000, 820000, 880000, 870000, 365000]
+    "cronJobsActive": 10,
+    "tokenSparkline": [0, 248500, 670000, 820000, 880000, 870000, 370000]
   },
   "timeline": [
+    { "agent": "MOLTY", "emoji": "🦾", "action": "dashboard update automático (cron)", "time": "22:12" },
     { "agent": "MOLTY", "emoji": "🦾", "action": "dashboard update automático (cron)", "time": "21:12" },
     { "agent": "MOLTY", "emoji": "🦾", "action": "dashboard update automático (cron)", "time": "20:12" },
     { "agent": "MOLTY", "emoji": "🦾", "action": "dashboard update automático (cron)", "time": "19:12" },
@@ -137,17 +138,16 @@
     { "date": "2026-03-07", "tokens": 820000 },
     { "date": "2026-03-08", "tokens": 880000 },
     { "date": "2026-03-09", "tokens": 870000 },
-    { "date": "2026-03-10", "tokens": 365000 }
+    { "date": "2026-03-10", "tokens": 370000 }
   ],
   "cronJobs": [
-    { "name": "Dashboard Update", "id": "9265dc02", "frequency": "Cada 1 hora", "next": "2026-03-10T22:12:00-03:00", "status": "active" },
-    { "name": "Token Usage Report", "id": "cd8ba5da", "frequency": "Cada 2 horas", "next": "2026-03-10T21:54:00-03:00", "status": "active" },
+    { "name": "Dashboard Update", "id": "9265dc02", "frequency": "Cada 1 hora", "next": "2026-03-10T23:12:00-03:00", "status": "active" },
+    { "name": "Token Usage Report", "id": "cd8ba5da", "frequency": "Cada 2 horas", "next": "2026-03-10T23:54:00-03:00", "status": "active" },
     { "name": "Daily Standup", "id": "648321fb", "frequency": "Lun-Sáb 12:00", "next": "2026-03-11T12:00:00-03:00", "status": "active" },
     { "name": "ML Data Pull", "id": "0a111e51", "frequency": "Cada 4 horas", "next": "2026-03-10T23:26:00-03:00", "status": "active" },
     { "name": "Recordatorio ML Ads", "id": "84df2461", "frequency": "Diario 10:00", "next": "2026-03-11T10:00:00-03:00", "status": "active" },
     { "name": "Weekly Competitive Intel", "id": "4dd03de0", "frequency": "Lunes 10:00", "next": "2026-03-16T10:00:00-03:00", "status": "active" },
     { "name": "Weekly Product Hunting", "id": "60c29650", "frequency": "Miércoles 10:00", "next": "2026-03-11T10:00:00-03:00", "status": "active" },
-    { "name": "Recordatorio reunión ML Ads (noche anterior)", "id": "587c8f61", "frequency": "Una vez — Mar 10/3 22:00", "next": "2026-03-10T22:00:00-03:00", "status": "pending" },
     { "name": "Recordatorio reunión ML Ads (mismo día)", "id": "00bf8d78", "frequency": "Una vez — Mié 11/3 10:30", "next": "2026-03-11T10:30:00-03:00", "status": "pending" },
     { "name": "Recordatorio psicofísico (noche anterior)", "id": "6f8e34c3", "frequency": "Una vez — Dom 22/3 22:00", "next": "2026-03-22T22:00:00-03:00", "status": "pending" },
     { "name": "Recordatorio psicofísico (mismo día)", "id": "039998ff", "frequency": "Una vez — Lun 23/3 08:00", "next": "2026-03-23T08:00:00-03:00", "status": "pending" }
