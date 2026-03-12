@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-03-12T03:12:00-03:00",
+  "lastUpdated": "2026-03-12T12:12:00-03:00",
   "agents": [
     {
       "id": "hunter",
@@ -85,27 +85,24 @@
       "role": "Director IA — Coordinación general",
       "status": "active",
       "channel": "#general / todos",
-      "lastTask": "Dashboard update automático + 6 cron jobs activos. ML Data Pull OK. Sesiones #desarrollo-formulas (crema anti-age, crema tensora, colágeno bebible, D3+K2).",
-      "lastActivity": "2026-03-12T03:12:00-03:00",
-      "weeklyTasks": { "completed": 237, "total": 237 }
+      "lastTask": "Dashboard update automático + 6 cron jobs activos. Sesión desarrollo-fórmulas con Ramon (crema anti-age, crema tensora, colágeno bebible, D3+K2). ML Data Pull con rate limits.",
+      "lastActivity": "2026-03-12T12:12:00-03:00",
+      "weeklyTasks": { "completed": 245, "total": 245 }
     }
   ],
   "metrics": {
-    "tasksToday": 4,
-    "tokensToday": 50300,
-    "reportsThisWeek": 72,
+    "tasksToday": 6,
+    "tokensToday": 62000,
+    "reportsThisWeek": 74,
     "cronJobsActive": 6,
-    "tokenSparkline": [155000, 190000, 195000, 250000, 300000, 46200, 50300]
+    "tokenSparkline": [195000, 250000, 300000, 46200, 50300, 58000, 62000]
   },
   "timeline": [
-    { "agent": "MOLTY", "emoji": "🦾", "action": "dashboard update automático (cron)", "time": "03:12" },
-    { "agent": "MOLTY", "emoji": "🦾", "action": "dashboard update automático (cron)", "time": "02:12" },
-    { "agent": "MOLTY", "emoji": "🦾", "action": "dashboard update automático (cron)", "time": "01:12" },
-    { "agent": "MOLTY", "emoji": "🦾", "action": "dashboard update automático (cron)", "time": "00:12" },
-    { "agent": "MOLTY", "emoji": "🦾", "action": "2026-03-11 — dashboard updates (cron cada hora)", "time": "2026-03-11" },
-    { "agent": "MOLTY", "emoji": "🦾", "action": "daily standup publicado en #daily-standup", "time": "2026-03-11 12:00" },
-    { "agent": "MOLTY", "emoji": "🦾", "action": "recordatorio ML Ads enviado a Ramon", "time": "2026-03-11 10:00" },
-    { "agent": "MOLTY", "emoji": "🦾", "action": "ML data pull (cron)", "time": "2026-03-11 07:07" },
+    { "agent": "MOLTY", "emoji": "🦾", "action": "dashboard update automático (cron)", "time": "12:12" },
+    { "agent": "MOLTY", "emoji": "🦾", "action": "daily standup (cron — error rate limit)", "time": "12:00" },
+    { "agent": "MOLTY", "emoji": "🦾", "action": "recordatorio ML Ads (cron)", "time": "10:00" },
+    { "agent": "MOLTY", "emoji": "🦾", "action": "dashboard updates (cron — rate limit errors 00:12-09:12)", "time": "00:12–09:12" },
+    { "agent": "MOLTY", "emoji": "🦾", "action": "2026-03-11 — dashboard updates + daily standup + ML data pull + recordatorio ML Ads", "time": "2026-03-11" },
     { "agent": "NOVA", "emoji": "🎯", "action": "ads strategy actualizada: Meta AR CPM $3.80, CPC $0.38. R1: $400 Meta + $200 ML. UGC 15-30s.", "time": "2026-03-10 12:15" },
     { "agent": "MOLTY", "emoji": "🦾", "action": "daily standup publicado en #daily-standup", "time": "2026-03-10 12:00" },
     { "agent": "HUNTER", "emoji": "🔬", "action": "5 productos nuevos: Calostro Bovino gotas (CERO competencia, +3000%), Shilajit, L-Teanina, Musgo Marino, Eriomin", "time": "2026-03-10 11:44" },
@@ -114,9 +111,7 @@
     { "agent": "MOLTY", "emoji": "🦾", "action": "recordatorio ML Ads (cron)", "time": "2026-03-10 10:01" },
     { "agent": "MOLTY", "emoji": "🦾", "action": "ML data pull (cron)", "time": "2026-03-10 07:25" },
     { "agent": "NOVA", "emoji": "🎯", "action": "estrategia Ads Ronda 1: $600 → $450 Meta + $150 ML, proyección 80-180 ventas", "time": "2026-03-09 10:00" },
-    { "agent": "ORBIT", "emoji": "🔍", "action": "ranking SEO 8 productos — Cúrcuma+Pimienta #1, formato gotas = moat SEO", "time": "2026-03-09 10:00" },
-    { "agent": "SHADOW", "emoji": "🕵️", "action": "competencia actualizada: CoQ10/Glutatión/5-HTP gotas cero competencia", "time": "2026-03-09 10:00" },
-    { "agent": "HUNTER", "emoji": "🔬", "action": "5 productos nuevos detectados: CoQ10, Glutatión, 5-HTP, Zinc+VitC, Cúrcuma+Pimienta", "time": "2026-03-09 10:00" }
+    { "agent": "ORBIT", "emoji": "🔍", "action": "ranking SEO 8 productos — Cúrcuma+Pimienta #1, formato gotas = moat SEO", "time": "2026-03-09 10:00" }
   ],
   "tokenHistory": [
     { "date": "2026-03-06", "tokens": 670000 },
@@ -125,13 +120,13 @@
     { "date": "2026-03-09", "tokens": 870000 },
     { "date": "2026-03-10", "tokens": 375000 },
     { "date": "2026-03-11", "tokens": 300000 },
-    { "date": "2026-03-12", "tokens": 50300 }
+    { "date": "2026-03-12", "tokens": 62000 }
   ],
   "cronJobs": [
-    { "name": "Dashboard Update", "id": "9265dc02", "frequency": "Cada 1 hora", "next": "2026-03-12T04:12:00-03:00", "status": "active" },
-    { "name": "ML Data Pull", "id": "0a111e51", "frequency": "Cada 4 horas", "next": "2026-03-12T06:53:00-03:00", "status": "active" },
-    { "name": "Daily Standup", "id": "648321fb", "frequency": "Lun-Sáb 12:00", "next": "2026-03-12T12:00:00-03:00", "status": "active" },
-    { "name": "Recordatorio ML Ads", "id": "84df2461", "frequency": "Diario 10:00", "next": "2026-03-12T10:00:00-03:00", "status": "active" },
+    { "name": "Dashboard Update", "id": "9265dc02", "frequency": "Cada 1 hora", "next": "2026-03-12T13:12:00-03:00", "status": "active" },
+    { "name": "ML Data Pull", "id": "0a111e51", "frequency": "Cada 4 horas", "next": "2026-03-12T15:33:00-03:00", "status": "active" },
+    { "name": "Daily Standup", "id": "648321fb", "frequency": "Lun-Sáb 12:00", "next": "2026-03-13T12:00:00-03:00", "status": "active" },
+    { "name": "Recordatorio ML Ads", "id": "84df2461", "frequency": "Diario 10:00", "next": "2026-03-13T10:00:00-03:00", "status": "active" },
     { "name": "Recordatorio psicofísico (noche anterior)", "id": "6f8e34c3", "frequency": "Una vez — Dom 22/3 22:00", "next": "2026-03-22T22:00:00-03:00", "status": "pending" },
     { "name": "Recordatorio psicofísico (mismo día)", "id": "039998ff", "frequency": "Una vez — Lun 23/3 08:00", "next": "2026-03-23T08:00:00-03:00", "status": "pending" }
   ],
