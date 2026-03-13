@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-03-12T15:12:00-03:00",
+  "lastUpdated": "2026-03-13T01:17:00-03:00",
   "agents": [
     {
       "id": "hunter",
@@ -85,47 +85,47 @@
       "role": "Director IA — Coordinación general",
       "status": "active",
       "channel": "#general / todos",
-      "lastTask": "Dashboard update automático + 6 cron jobs activos. Cron jobs con rate limits intermitentes (ML Data Pull 3 errores consecutivos, Daily Standup y Dashboard con errores aislados).",
-      "lastActivity": "2026-03-12T15:12:00-03:00",
-      "weeklyTasks": { "completed": 250, "total": 250 }
+      "lastTask": "Dashboard update automático. 6 cron jobs activos. Rate limits intermitentes en Dashboard (9 errores consecutivos), ML Data Pull (5 errores), Daily Standup (1 error). ML Ads: ROAS 4.86x, ingresos $1.2M, inversión $256K.",
+      "lastActivity": "2026-03-13T01:17:00-03:00",
+      "weeklyTasks": { "completed": 260, "total": 260 }
     }
   ],
   "metrics": {
-    "tasksToday": 6,
-    "tokensToday": 68000,
-    "reportsThisWeek": 78,
+    "tasksToday": 3,
+    "tokensToday": 37000,
+    "reportsThisWeek": 80,
     "cronJobsActive": 6,
-    "tokenSparkline": [300000, 46200, 50300, 58000, 62000, 65000, 68000]
+    "tokenSparkline": [46200, 50300, 58000, 62000, 65000, 68000, 37000]
   },
   "timeline": [
-    { "agent": "MOLTY", "emoji": "🦾", "action": "dashboard update automático (cron)", "time": "15:12" },
-    { "agent": "MOLTY", "emoji": "🦾", "action": "dashboard update (cron — error rate limit previo)", "time": "13:12" },
-    { "agent": "MOLTY", "emoji": "🦾", "action": "daily standup (cron — error rate limit)", "time": "12:00" },
-    { "agent": "MOLTY", "emoji": "🦾", "action": "ML Data Pull (cron — 3 errores consecutivos rate limit)", "time": "11:33" },
-    { "agent": "MOLTY", "emoji": "🦾", "action": "recordatorio ML Ads (cron — OK)", "time": "10:00" },
-    { "agent": "MOLTY", "emoji": "🦾", "action": "dashboard updates con rate limit errors intermitentes", "time": "00:12–09:12" },
-    { "agent": "MOLTY", "emoji": "🦾", "action": "2026-03-11 — dashboard updates + daily standup + ML data pull + recordatorio ML Ads", "time": "2026-03-11" },
+    { "agent": "MOLTY", "emoji": "🦾", "action": "dashboard update automático (cron)", "time": "01:17" },
+    { "agent": "MOLTY", "emoji": "🦾", "action": "dashboard update (cron — error rate limit, 9 consecutivos)", "time": "2026-03-12 22:17" },
+    { "agent": "MOLTY", "emoji": "🦾", "action": "ML Ads métricas registradas: ROAS 4.86x, ingresos $1.2M, inversión $256K", "time": "2026-03-12 15:12" },
+    { "agent": "MOLTY", "emoji": "🦾", "action": "compra insumos: 1,080 frascos colirios 30ml a $636K", "time": "2026-03-12 14:00" },
+    { "agent": "MOLTY", "emoji": "🦾", "action": "daily standup (cron — error rate limit)", "time": "2026-03-12 12:00" },
+    { "agent": "MOLTY", "emoji": "🦾", "action": "ML Data Pull (cron — 5 errores consecutivos rate limit)", "time": "2026-03-12 11:33" },
+    { "agent": "MOLTY", "emoji": "🦾", "action": "recordatorio ML Ads (cron — OK)", "time": "2026-03-12 10:00" },
     { "agent": "NOVA", "emoji": "🎯", "action": "ads strategy actualizada: Meta AR CPM $3.80, CPC $0.38. R1: $400 Meta + $200 ML. UGC 15-30s.", "time": "2026-03-10 12:15" },
     { "agent": "MOLTY", "emoji": "🦾", "action": "daily standup publicado en #daily-standup", "time": "2026-03-10 12:00" },
     { "agent": "HUNTER", "emoji": "🔬", "action": "5 productos nuevos: Calostro Bovino gotas (CERO competencia, +3000%), Shilajit, L-Teanina, Musgo Marino, Eriomin", "time": "2026-03-10 11:44" },
     { "agent": "ORBIT", "emoji": "🔍", "action": "keyword research: glicinato magnesio gotas = gap enorme, longevidad mega-tendencia 2026", "time": "2026-03-10 11:15" },
     { "agent": "SHADOW", "emoji": "🕵️", "action": "monitoreo competitivo: blue ocean confirmado, Vitawellness expandiendo cúrcuma gotas, Seronite nuevo 5-HTP", "time": "2026-03-10 10:45" },
-    { "agent": "MOLTY", "emoji": "🦾", "action": "recordatorio ML Ads (cron)", "time": "2026-03-10 10:01" },
-    { "agent": "MOLTY", "emoji": "🦾", "action": "ML data pull (cron)", "time": "2026-03-10 07:25" }
+    { "agent": "MOLTY", "emoji": "🦾", "action": "sesión desarrollo fórmulas: crema anti-age 500u, conservante PEG91, pedido Van Rossum", "time": "2026-03-10 09:00" },
+    { "agent": "MOLTY", "emoji": "🦾", "action": "recordatorio ML Ads (cron)", "time": "2026-03-10 10:01" }
   ],
   "tokenHistory": [
-    { "date": "2026-03-06", "tokens": 670000 },
     { "date": "2026-03-07", "tokens": 820000 },
     { "date": "2026-03-08", "tokens": 880000 },
     { "date": "2026-03-09", "tokens": 870000 },
     { "date": "2026-03-10", "tokens": 375000 },
     { "date": "2026-03-11", "tokens": 300000 },
-    { "date": "2026-03-12", "tokens": 68000 }
+    { "date": "2026-03-12", "tokens": 68000 },
+    { "date": "2026-03-13", "tokens": 37000 }
   ],
   "cronJobs": [
-    { "name": "Dashboard Update", "id": "9265dc02", "frequency": "Cada 1 hora", "next": "2026-03-12T16:12:00-03:00", "status": "active", "error": "1 error rate limit previo, recuperado" },
-    { "name": "ML Data Pull", "id": "0a111e51", "frequency": "Cada 4 horas", "next": "2026-03-12T19:33:00-03:00", "status": "error", "error": "rate limit — 3 errores consecutivos" },
-    { "name": "Daily Standup", "id": "648321fb", "frequency": "Lun-Sáb 12:00", "next": "2026-03-13T12:00:00-03:00", "status": "error", "error": "rate limit — último run falló" },
+    { "name": "Dashboard Update", "id": "9265dc02", "frequency": "Cada 1 hora", "next": "2026-03-13T02:17:00-03:00", "status": "error", "error": "9 errores consecutivos — rate limit" },
+    { "name": "ML Data Pull", "id": "0a111e51", "frequency": "Cada 4 horas", "next": "2026-03-13T05:07:00-03:00", "status": "error", "error": "5 errores consecutivos — rate limit" },
+    { "name": "Daily Standup", "id": "648321fb", "frequency": "Lun-Sáb 12:00", "next": "2026-03-13T12:00:00-03:00", "status": "error", "error": "1 error consecutivo — rate limit" },
     { "name": "Recordatorio ML Ads", "id": "84df2461", "frequency": "Diario 10:00", "next": "2026-03-13T10:00:00-03:00", "status": "active" },
     { "name": "Recordatorio psicofísico (noche anterior)", "id": "6f8e34c3", "frequency": "Una vez — Dom 22/3 22:00", "next": "2026-03-22T22:00:00-03:00", "status": "pending" },
     { "name": "Recordatorio psicofísico (mismo día)", "id": "039998ff", "frequency": "Una vez — Lun 23/3 08:00", "next": "2026-03-23T08:00:00-03:00", "status": "pending" }
